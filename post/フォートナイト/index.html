@@ -25,7 +25,7 @@
             });
         });    
     </script>
-    <title>せれぶろ / ¿Qué es せれぶろ?</title>
+    <title>せれぶろ / フォートナイト</title>
     <div class="header">
         <a id="logoa" href="http://kareha532.github.io/cerebro/"><img id="logo" src="http://kareha532.github.io/cerebro/images/logo.png" alt="Cerebro" srcset=""></a>
         <span class="a">ひとりでつくる百科事典 Since 2019</span>
@@ -129,18 +129,158 @@
   <main class="main" role="main">
     <article>
       <header class="entry-header">
-        <h1 class="main">¿Qué es せれぶろ?</h1>
+        <h1 class="main">フォートナイト</h1>
       </header>
       <div class="entry-content">
         <p>
 
-<h2 id="せれぶろとは">せれぶろとは</h2>
 
-<p>　項目数は多いけど一つ一つは大雑把、みたいな百科事典サイトにしていく予定です。Loghateよりも百科事典に注力してるのでHugoのテーマもそれっぽいやつになりました。満足満足。まぁいつもどおり続くかどうかは神のみぞ知るので、そこんとこよろしくおねがいします。あー、宿題やらんと。</p>
+
+<style>
+  .zakkuri2 {
+    position: relative;
+    margin: 1em 0 2em;
+    padding: 26px 0 0 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .zakkuri2s {
+    text-align: center;
+    border-radius: 50px;
+    padding: 5px 20px;
+    font-size: 12px;
+    color: white;
+    background: #e84118;
+    cursor: default;
+    min-width: 80px;
+    height: 12px;
+    line-height: 12px;
+    margin: 0;
+  }
+
+  #zakkuri2p {
+    font-size: 14px;
+    margin-left: 10px;
+  }
+</style>
+
+<div class="zakkuri2">
+  <span onselectstart="return false;" class="zakkuri2s">
+    ざっくり言うと
+  </span>
+  <span id="zakkuri2p">
+    Epic Gamesが運営しているオンラインゲーム。バトルロイヤルが人気で、従来のものに建築要素などが追加されている。
+  </span>
+</div>
+
+<p><strong>フォートナイト</strong>（ふぉーとないと・Fortnite）、Epic Gamesが開発・提供している基本無料のアクションビルディングゲーム。</p>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script>
+$(function(){
+  var countId = 1
+  $(".entry-content h1,.entry-content h2,.entry-content h3,.entry-content h4,.entry-content h5,.entry-content h6").each(function(){
+    var ttl = $(this).text();
+    var lv = this.nodeName.toLowerCase();
+    this.id = 'ttl-' + countId;
+    countId ++;
+    $("#index").append('<dd class="lv_'+lv+' tocli"><a href="#'+this.id+'">'+ttl+'</a></dd>');
+  });
+});
+</script>
+
+<ul id="index">
+  <p>目次</p>
+</ul>
+<br><br>
+<style>
+  #index {
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    border: solid 1px #ccc;
+  }
+
+  #index p {
+    font-weight: bold;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding-bottom: 5px;
+    border-bottom: solid 2px #34ace0;    
+  }
+
+  .tocli {
+    font-size: 18px;
+    margin-left: 15px;
+  }
+
+  .tocli a {
+    color: black;
+    text-decoration: none;
+  }
+
+  dd {
+  margin: 0 10px;
+  padding: 10px;
+}
+dd:not(:last-child) {
+  border-bottom: 1px dotted #aaa;
+  margin-left: 0px;
+  margin-right: 40px;
+}
+dd.lv_h2 {
+  padding-left: 15px;
+}
+dd.lv_h3 {
+  padding-left: 20px;
+}
+dd.lv_h4 {
+  padding-left: 30px;
+}
+dd.lv_h5 {
+  padding-left: 35px;
+}
+dd.lv_h6 {
+  padding-left: 40px;
+}
+dd a {
+  color: #333;
+  text-decoration: none;
+}
+dd a::before {
+  content: "-";
+  margin-right: 5px;
+}
+</style>
+
+<h2 id="武器">武器</h2>
+
+<p><table border=0>
+  <tr>
+    <th>武器</th>
+    <th>攻撃力</th>
+    <th>連射速度</th>
+  </tr>
+  <tr>
+    <td>アサルトライフル</td>
+    <td>30</td>
+    <td>165</td>
+  </tr>
+  <tr>
+    <td>バーストアサルトライフル</td>
+    <td>27-18</td>
+    <td>109.7</td>
+  </tr>
+</table></p>
+
+<h3 id="シーズン1">シーズン1</h3>
 </p>
       </div>
       <div class="line"></div>
-      <div class="entry-date">記事作成日: 2019/04/06 22:12　最終更新日: 2019/04/06 22:12</div>
+      <div class="entry-date">記事作成日: 2019/04/06 22:58　最終更新日: 2019/04/07 01:40</div>
     </article>
   </main>
 </body>

@@ -1,22 +1,129 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on My New Hugo Site</title>
+    <title>記事一覧(A～Z→あ～ん) on せれぶろ</title>
     <link>http://kareha532.github.io/cerebro/post/</link>
-    <description>Recent content in Posts on My New Hugo Site</description>
+    <description>Recent content in 記事一覧(A～Z→あ～ん) on せれぶろ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sat, 06 Apr 2019 23:24:17 +0900</lastBuildDate>
     
 	<atom:link href="http://kareha532.github.io/cerebro/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title></title>
-      <link>http://kareha532.github.io/cerebro/post/2019-04-06-your-filename/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Oasis</title>
+      <link>http://kareha532.github.io/cerebro/post/oasis/</link>
+      <pubDate>Sun, 07 Apr 2019 18:01:00 +0900</pubDate>
       
-      <guid>http://kareha532.github.io/cerebro/post/2019-04-06-your-filename/</guid>
-      <description>A New Post Enter text in Markdown. Use the toolbar above, or click the ? button for formatting help.</description>
+      <guid>http://kareha532.github.io/cerebro/post/oasis/</guid>
+      <description>  .zakkuri2 { position: relative; margin: 1em 0 2em; padding: 26px 0 0 0; display: flex; align-items: center; } .zakkuri2s { text-align: center; border-radius: 50px; padding: 5px 20px; font-size: 12px; color: white; background: #e84118; cursor: default; min-width: 80px; height: 12px; line-height: 12px; margin: 0; } #zakkuri2p { font-size: 14px; margin-left: 10px; }  ざっくり言うと  イギリスのロックバンド。兄弟仲が悪いことで有名。現在は解散しそれぞれで活動。   Oasis（オアシス・オエィシス1）、リアム・ギャラガー、ノエル・ギャラガー、ゲム・アーチャー、アンディ・ベル、クリス・シャーロックによる、イギリスのロックバンド。1991年結成、2009年解散。
+ザ・ビートルズやフー・ファイターズと並んでイギリスの3大ロックバンドとされている。
+ イギリス英語（British）での発音。すなわち正式な発音となる。 [return]   </description>
+    </item>
+    
+    <item>
+      <title>アップルオートネットワーク株式会社</title>
+      <link>http://kareha532.github.io/cerebro/post/%E3%82%A2%E3%83%83%E3%83%97%E3%83%AB%E3%82%AA%E3%83%BC%E3%83%88%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE/</link>
+      <pubDate>Sun, 07 Apr 2019 15:25:44 +0900</pubDate>
+      
+      <guid>http://kareha532.github.io/cerebro/post/%E3%82%A2%E3%83%83%E3%83%97%E3%83%AB%E3%82%AA%E3%83%BC%E3%83%88%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE/</guid>
+      <description>  .zakkuri2 { position: relative; margin: 1em 0 2em; padding: 26px 0 0 0; display: flex; align-items: center; } .zakkuri2s { text-align: center; border-radius: 50px; padding: 5px 20px; font-size: 12px; color: white; background: #e84118; cursor: default; min-width: 80px; height: 12px; line-height: 12px; margin: 0; } #zakkuri2p { font-size: 14px; margin-left: 10px; }  ざっくり言うと  。   </description>
+    </item>
+    
+    <item>
+      <title>林檎</title>
+      <link>http://kareha532.github.io/cerebro/post/%E6%9E%97%E6%AA%8E/</link>
+      <pubDate>Sun, 07 Apr 2019 15:25:29 +0900</pubDate>
+      
+      <guid>http://kareha532.github.io/cerebro/post/%E6%9E%97%E6%AA%8E/</guid>
+      <description>.zakkuri2 { position: relative; margin: 1em 0 2em; padding: 26px 0 0 0; display: flex; align-items: center; } .zakkuri2s { text-align: center; border-radius: 50px; padding: 5px 20px; font-size: 12px; color: white; background: #e84118; cursor: default; min-width: 80px; height: 12px; line-height: 12px; margin: 0; } #zakkuri2p { font-size: 14px; margin-left: 10px; }  ざっくり言うと  赤い果実。例のアレ。   林檎（りんご・リンゴ）、バラ科リンゴ属の落葉高木樹。またはその果実。</description>
+    </item>
+    
+    <item>
+      <title>Apple.Inc</title>
+      <link>http://kareha532.github.io/cerebro/post/apple-inc/</link>
+      <pubDate>Sun, 07 Apr 2019 15:24:22 +0900</pubDate>
+      
+      <guid>http://kareha532.github.io/cerebro/post/apple-inc/</guid>
+      <description>.zakkuri2 { position: relative; margin: 1em 0 2em; padding: 26px 0 0 0; display: flex; align-items: center; } .zakkuri2s { text-align: center; border-radius: 50px; padding: 5px 20px; font-size: 12px; color: white; background: #e84118; cursor: default; min-width: 80px; height: 12px; line-height: 12px; margin: 0; } #zakkuri2p { font-size: 14px; margin-left: 10px; }  ざっくり言うと  アメリカ合衆国カリフォルニア州に本社を置くIT企業。iPhoneやiPad、Macなどが有名。   Apple.Inc（あっぷる・アップル・Apple）、アメリカ合衆国カリフォルニア州に本社を置く、インターネット関連製品・デジタル家庭電化製品および同製品に関連するソフトウェア製品を開発・販売する多国籍企業。 2007年1月9日に、アップルコンピュータ (Apple Computer, Inc.) から改称。</description>
+    </item>
+    
+    <item>
+      <title>アップル</title>
+      <link>http://kareha532.github.io/cerebro/post/%E3%82%A2%E3%83%83%E3%83%97%E3%83%AB/</link>
+      <pubDate>Sun, 07 Apr 2019 15:16:59 +0900</pubDate>
+      
+      <guid>http://kareha532.github.io/cerebro/post/%E3%82%A2%E3%83%83%E3%83%97%E3%83%AB/</guid>
+      <description> この項目には複数の定義があります。  Apple.Inc - アメリカカリフォルニア州に本社を置くIT企業。
+ 林檎 - 赤い果実。例のアレ。
+ アップルオートネットワーク株式会社 - 「アップルに来てください」でお馴染みの車の買取・査定を事業とする日本の株式会社。
+  </description>
+    </item>
+    
+    <item>
+      <title>マイクロソフト</title>
+      <link>http://kareha532.github.io/cerebro/post/%E3%83%9E%E3%82%A4%E3%82%AF%E3%83%AD%E3%82%BD%E3%83%95%E3%83%88/</link>
+      <pubDate>Sun, 07 Apr 2019 15:14:45 +0900</pubDate>
+      
+      <guid>http://kareha532.github.io/cerebro/post/%E3%83%9E%E3%82%A4%E3%82%AF%E3%83%AD%E3%82%BD%E3%83%95%E3%83%88/</guid>
+      <description>.zakkuri2 { position: relative; margin: 1em 0 2em; padding: 26px 0 0 0; display: flex; align-items: center; } .zakkuri2s { text-align: center; border-radius: 50px; padding: 5px 20px; font-size: 12px; color: white; background: #e84118; cursor: default; min-width: 80px; height: 12px; line-height: 12px; margin: 0; } #zakkuri2p { font-size: 14px; margin-left: 10px; }  ざっくり言うと  アメリカに本社を置くIT企業。Windowsが有名。   マイクロソフト（まいくろそふと・Microsoft・Microsoft Corporation）、アメリカ合衆国ワシントン州に本社を置く、ソフトウェアを開発・販売する会社。1975年にビル・ゲイツとポール・アレンによって創業。</description>
+    </item>
+    
+    <item>
+      <title>スピッツ（バンド）</title>
+      <link>http://kareha532.github.io/cerebro/post/%E3%82%B9%E3%83%94%E3%83%83%E3%83%84/</link>
+      <pubDate>Sun, 07 Apr 2019 13:13:52 +0900</pubDate>
+      
+      <guid>http://kareha532.github.io/cerebro/post/%E3%82%B9%E3%83%94%E3%83%83%E3%83%84/</guid>
+      <description>.info2 { position: relative; margin: 10px 0; display: flex; align-items: center; } .info2s { text-align: center; border-radius: 50px; padding: 5px 20px; font-size: 12px; color: white; background: #353b48; cursor: default; height: 12px; min-width: 40px; line-height: 12px; margin: 0; } #info2p { font-size: 14px; margin-left: 10px; }  要出典  この記事は出典が一つもなく、全盛期のニコニコ大百科の様なものになっています。出典を追加してください。   .long2 { position: relative; margin: 10px 0; padding: 26px 0 0 0; display: flex; align-items: center; } .</description>
+    </item>
+    
+    <item>
+      <title>ジャルジャル</title>
+      <link>http://kareha532.github.io/cerebro/post/%E3%82%B8%E3%83%A3%E3%83%AB%E3%82%B8%E3%83%A3%E3%83%AB/</link>
+      <pubDate>Sun, 07 Apr 2019 00:09:27 +0900</pubDate>
+      
+      <guid>http://kareha532.github.io/cerebro/post/%E3%82%B8%E3%83%A3%E3%83%AB%E3%82%B8%E3%83%A3%E3%83%AB/</guid>
+      <description>.zakkuri2 { position: relative; margin: 1em 0 2em; padding: 26px 0 0 0; display: flex; align-items: center; } .zakkuri2s { text-align: center; border-radius: 50px; padding: 5px 20px; font-size: 12px; color: white; background: #e84118; cursor: default; min-width: 80px; height: 12px; line-height: 12px; margin: 0; } #zakkuri2p { font-size: 14px; margin-left: 10px; }  ざっくり言うと  吉本興業所属のコンビ芸人。独特な着眼点とワードセンスが魅力。   ジャルジャル（じゃるじゃる・JARU JARU）、後藤純平と福徳秀介によるお笑いコンビ。2003年4月結成。</description>
+    </item>
+    
+    <item>
+      <title>Fortnite</title>
+      <link>http://kareha532.github.io/cerebro/post/fortnite/</link>
+      <pubDate>Sat, 06 Apr 2019 23:24:17 +0900</pubDate>
+      
+      <guid>http://kareha532.github.io/cerebro/post/fortnite/</guid>
+      <description>この記事は転送しますフォートナイトへ2秒後に転送します… </description>
+    </item>
+    
+    <item>
+      <title>フォートナイト</title>
+      <link>http://kareha532.github.io/cerebro/post/%E3%83%95%E3%82%A9%E3%83%BC%E3%83%88%E3%83%8A%E3%82%A4%E3%83%88/</link>
+      <pubDate>Sat, 06 Apr 2019 22:58:06 +0900</pubDate>
+      
+      <guid>http://kareha532.github.io/cerebro/post/%E3%83%95%E3%82%A9%E3%83%BC%E3%83%88%E3%83%8A%E3%82%A4%E3%83%88/</guid>
+      <description>.zakkuri2 { position: relative; margin: 1em 0 2em; padding: 26px 0 0 0; display: flex; align-items: center; } .zakkuri2s { text-align: center; border-radius: 50px; padding: 5px 20px; font-size: 12px; color: white; background: #e84118; cursor: default; min-width: 80px; height: 12px; line-height: 12px; margin: 0; } #zakkuri2p { font-size: 14px; margin-left: 10px; }  ざっくり言うと  Epic Gamesが運営しているオンラインゲーム。バトルロイヤルが人気で、従来のものに建築要素などが追加されている。   フォートナイト（ふぉーとないと・Fortnite）、Epic Gamesが開発・提供している基本無料のアクションビルディングゲーム。
+  $(function(){ var countId = 1 $(&#34;.entry-content h1,.</description>
+    </item>
+    
+    <item>
+      <title>ラーメンズ</title>
+      <link>http://kareha532.github.io/cerebro/post/%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%E3%82%BA/</link>
+      <pubDate>Sat, 06 Apr 2019 22:12:15 +0900</pubDate>
+      
+      <guid>http://kareha532.github.io/cerebro/post/%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%E3%82%BA/</guid>
+      <description>  .zakkuri2 { position: relative; margin: 1em 0 2em; padding: 26px 0 0 0; display: flex; align-items: center; } .zakkuri2s { text-align: center; border-radius: 50px; padding: 5px 20px; font-size: 12px; color: white; background: #e84118; cursor: default; min-width: 80px; height: 12px; line-height: 12px; margin: 0; } #zakkuri2p { font-size: 14px; margin-left: 10px; }  ざっくり言うと  小林賢太郎と片桐仁によるコンビ芸人。主に舞台で活動し、現在はそれぞれでソロ活動中。   ラーメンズ（らーめんず・RAHMENS1）、小林賢太郎と片桐仁によるコンビ芸人。1996年結成。
+ Wikipediaでは『RAMENS』だが、公式サイト表記。 [return]   </description>
+    </item>
+    
+    <item>
+      <title>あ</title>
+      <link>http://kareha532.github.io/cerebro/post/%E3%81%82/</link>
+      <pubDate>Sat, 06 Apr 2019 17:12:08 +0900</pubDate>
+      
+      <guid>http://kareha532.github.io/cerebro/post/%E3%81%82/</guid>
+      <description>.zakkuri2 { position: relative; margin: 1em 0 2em; padding: 26px 0 0 0; display: flex; align-items: center; } .zakkuri2s { text-align: center; border-radius: 50px; padding: 5px 20px; font-size: 12px; color: white; background: #e84118; cursor: default; min-width: 80px; height: 12px; line-height: 12px; margin: 0; } #zakkuri2p { font-size: 14px; margin-left: 10px; }  ざっくり言うと  ひらがな文字の一つ。50音順で一番最初。   あ(あ)、日本語のひらがな50文字の一つ。母音。</description>
     </item>
     
   </channel>

@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" href="http://kareha532.github.io/cerebro/images/favicon.png">
+    <link rel="stylesheet" href="http://kareha532.github.io/cerebro/css/style.css">
+    <link rel="stylesheet" href="http://kareha532.github.io/cerebro/css/icofont/icofont.min.css">
+    <script src="http://kareha532.github.io/cerebro/js/jquery-3.3.1.min.js"></script>
+
+    <script>
+        $(function () {
+            $("#clicksearch").click(function () {
+                $("#searchform").toggle();
+            });
+        });
+
+    </script>
+    <script>
+        $(function () {
+            $("#submit").click(function () {
+                $("#result").toggle();
+            });
+        });    
+    </script>
+    <title>せれぶろ / スピッツ（バンド）</title>
+    <div class="header">
+        <a id="logoa" href="http://kareha532.github.io/cerebro/"><img id="logo" src="http://kareha532.github.io/cerebro/images/logo.png" alt="Cerebro" srcset=""></a>
+        <span class="a">ひとりでつくる百科事典 Since 2019</span>
+        <span class="icon">
+            <button id="clicksearch"><i class="icofont-search-1"></i></button>
+        </span>
+        <span class="icon">
+            <a href="http://kareha532.github.io/cerebro/post"><button><i class="icofont-list"></i></button></a>
+        </span>
+        <span class="icon">
+            <a href="http://kareha532.github.io/cerebro/info"><button><i class="icofont-info"></i></button></a>
+        </span>
+    </div>
+
+    <div id="searchform">
+        <div id="searchbox">
+            <p id="boxtxt">何をお探しですか？</p>
+        </div>
+        <div class="search" id="search">
+            <input id="searchbox" type="text" placeholder="検索" v-model="txt" @keyup="search()" @blur="close()"
+                maxlength="50">
+            <div class="search-results" :style="{'display': showresult?'inline-block':'none'}">
+                <a v-for="item in result" :href="item.url">{{ item.title }}</a>
+            </div>
+            
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.min.js"
+                integrity="sha256-FtWfRI+thWlNz2sB3SJbwKx5PgMyKIVgwHCTwa3biXc=" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"
+                integrity="sha256-mpnrJ5DpEZZkwkE1ZgkEQQJW/46CSEh/STrZKOB/qoM=" crossorigin="anonymous"></script>
+
+            <script>
+                let vuesearch = new Vue({
+                    el: '#search', 
+                    data: {
+                        txt: '', 
+                        timeoutID: 0, 
+                        showresult: false, 
+                        result: {}, 
+                        bdd: [] 
+                    },
+                    mounted: function () {
+                        
+                        axios.get('http:\/\/kareha532.github.io\/cerebro\/search\/index.json')
+                            .then(function (response) {
+                                vuesearch.bdd = response.data.results;
+                            })
+                            .catch(function (error) {
+                                console.log(error);
+                            });
+                    },
+                    methods: {
+                        close: function () {
+                            
+                            
+                            setTimeout(function () {
+                                vuesearch.showresult = false;
+                                vuesearch.txt = '';
+                            }, 300);
+                        },
+                        search: function () {
+                            
+                            clearTimeout(this.timeoutID);
+                            this.timeoutID = setTimeout(this.dosearch, 500);
+                        },
+                        dosearch: function () {
+                            
+                            this.result = []; 
+                            let words = this.txt.split(' '); 
+                            let words2 = []; 
+                            words.forEach(function (element) { 
+                                if (element) { words2.push(element); }
+                            });
+                            let r;
+                            let resultmp;
+                            words2.forEach(function (e) { 
+                                r = vuesearch.bdd.filter(p => p.content.indexOf(e.toLowerCase()) !== -1);
+                                if (vuesearch.result.length === 0) { vuesearch.result = r.slice(); return; }
+                                resultmp = [];
+                                vuesearch.result.forEach(function (all1) {
+                                    r.forEach(function (all2) { 
+                                        if (all1.url === all2.url) { resultmp.push(all1); }
+                                    });
+                                });
+                                vuesearch.result = resultmp.slice();
+                            });
+                            this.result = this.result.slice(0, 10); 
+                            this.showresult = (this.result.length > 0); 
+                        } 
+                    } 
+                }); 
+            </script>
+        </div>
+        <button href="#" class="rmd" onclick="random_jump();">Explore!</button>
+    </div>
+</head>
+<script src="http://kareha532.github.io/cerebro/pagelist.2e8de1cf31f0b8e71544d519654c7a307299b2f4108d2f143b1a4bdf84bf212a.json" async></script>
+<script src="http://kareha532.github.io/cerebro/js/hugo-random.0f55d91267fd3e9c790f5ae8e706899bc45e69d8c42588ee8f22e691634f2086.js" async></script>
+
+
+<body>
+  <main class="main" role="main">
+    <article>
+      <header class="entry-header">
+        <h1 class="main">スピッツ（バンド）</h1>
+      </header>
+      <div class="entry-content">
+        <p>
+
+<div class="before">
+
+
+<style>
+  .info2 {
+    position: relative;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .info2s {
+    text-align: center;
+    border-radius: 50px;
+    padding: 5px 20px;
+    font-size: 12px;
+    color: white;
+    background: #353b48;
+    cursor: default;
+    height: 12px;
+    min-width: 40px;
+    line-height: 12px;
+    margin: 0;
+  }
+
+  #info2p {
+    font-size: 14px;
+    margin-left: 10px;
+  }
+</style>
+
+<div class="info2">
+  <span onselectstart="return false;" class="info2s">
+    要出典
+  </span>
+  <span id="info2p">
+    <b>この記事は出典が一つもなく、全盛期のニコニコ大百科の様なものになっています。出典を追加してください。</b></span>
+</div>
+
+
+<style>
+  .long2 {
+    position: relative;
+    margin: 10px 0;
+    padding: 26px 0 0 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .long2s {
+    text-align: center;
+    border-radius: 50px;
+    padding: 5px 20px;
+    font-size: 12px;
+    color: white;
+    background: #fbc531;
+    cursor: default;
+    height: 12px;
+    min-width: 40px;
+    line-height: 12px;
+    margin: 0;
+  }
+
+  #long2p {
+    font-size: 14px;
+    margin-left: 10px;
+  }
+</style>
+
+<div class="long2">
+  <span onselectstart="return false;" class="long2s">
+    注意
+  </span>
+  <span id="long2p">
+    この記事は訳あって<b>とてつもなく長いです</b>。目次をご利用ください。
+  </span>
+</div>
+</div>
+
+
+
+<style>
+  .zakkuri2 {
+    position: relative;
+    margin: 1em 0 2em;
+    padding: 26px 0 0 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .zakkuri2s {
+    text-align: center;
+    border-radius: 50px;
+    padding: 5px 20px;
+    font-size: 12px;
+    color: white;
+    background: #e84118;
+    cursor: default;
+    min-width: 80px;
+    height: 12px;
+    line-height: 12px;
+    margin: 0;
+  }
+
+  #zakkuri2p {
+    font-size: 14px;
+    margin-left: 10px;
+  }
+</style>
+
+<div class="zakkuri2">
+  <span onselectstart="return false;" class="zakkuri2s">
+    ざっくり言うと
+  </span>
+  <span id="zakkuri2p">
+    日本のロック（？）バンド。ボーカルの歌声や独特な曲調が特徴。YO!。
+  </span>
+</div>
+
+<p><strong>スピッツ</strong>（すぴっつ・Spitz）、草野マサムネ・三輪テツヤ・田村明浩・崎山龍男による日本のロックバンド。1987年結成、1990年にミニアルバム『ヒバリのこころ』でインディーズデビューし、その後1991年にシングル『ヒバリのこころ』とアルバム『スピッツ』でメジャーデビュー。所属事務所はGrass Hopper。バンド名の由来は犬種のスピッツから。</p>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script>
+$(function(){
+  var countId = 1
+  $(".entry-content h1,.entry-content h2,.entry-content h3,.entry-content h4,.entry-content h5,.entry-content h6").each(function(){
+    var ttl = $(this).text();
+    var lv = this.nodeName.toLowerCase();
+    this.id = 'ttl-' + countId;
+    countId ++;
+    $("#index").append('<dd class="lv_'+lv+' tocli"><a href="#'+this.id+'">'+ttl+'</a></dd>');
+  });
+});
+</script>
+
+<ul id="index">
+  <p>目次</p>
+</ul>
+<br><br>
+<style>
+  #index {
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    border: solid 1px #ccc;
+  }
+
+  #index p {
+    font-weight: bold;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding-bottom: 5px;
+    border-bottom: solid 2px #34ace0;    
+  }
+
+  .tocli {
+    font-size: 18px;
+    margin-left: 15px;
+  }
+
+  .tocli a {
+    color: black;
+    text-decoration: none;
+  }
+
+  dd {
+  margin: 0 10px;
+  padding: 10px;
+}
+dd:not(:last-child) {
+  border-bottom: 1px dotted #aaa;
+  margin-left: 0px;
+  margin-right: 40px;
+}
+dd.lv_h2 {
+  padding-left: 15px;
+}
+dd.lv_h3 {
+  padding-left: 20px;
+}
+dd.lv_h4 {
+  padding-left: 30px;
+}
+dd.lv_h5 {
+  padding-left: 35px;
+}
+dd.lv_h6 {
+  padding-left: 40px;
+}
+dd a {
+  color: #333;
+  text-decoration: none;
+}
+dd a::before {
+  content: "-";
+  margin-right: 5px;
+}
+</style>
+
+<h2 id="メンバー">メンバー</h2>
+
+<ul>
+<li><p><ruby>草野<rt>くさの</rt>マサムネ</ruby>（Vo., Gt.）</p></li>
+
+<li><p><ruby>三輪<rt>みわ</rt>テツヤ</ruby>（Gt., Chor.）</p></li>
+
+<li><p><ruby>田村<rt>たむら</rt>明浩<rt>あきひろ</rt></ruby>（Ba., Chor.）</p></li>
+
+<li><p><ruby>崎山<rt>さきやま</rt>龍男<rt>たつお</rt></ruby>（Dr., Chor.）</p></li>
+</ul>
+
+<h2 id="ディスコグラフィ">ディスコグラフィ</h2>
+
+<p>※メジャーデビュー以降</p>
+
+<h3 id="シングル">シングル</h3>
+
+<table>
+<thead>
+<tr>
+<th>・</th>
+<th>タイトル</th>
+<th>発売日</th>
+<th>備考</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>1st</td>
+<td>ヒバリのこころ</td>
+<td>1991/3/25</td>
+<td></td>
+</tr>
+
+<tr>
+<td>2nd</td>
+<td>夏の魔物</td>
+<td>1991/6/25</td>
+<td></td>
+</tr>
+
+<tr>
+<td>3rd</td>
+<td>魔女旅に出る</td>
+<td>1991/10/25</td>
+<td></td>
+</tr>
+
+<tr>
+<td>4th</td>
+<td>惑星のかけら</td>
+<td>1992/8/26</td>
+<td></td>
+</tr>
+
+<tr>
+<td>5th</td>
+<td>日なたの窓に憧れて</td>
+<td>1992/11/26</td>
+<td></td>
+</tr>
+
+<tr>
+<td>6th</td>
+<td>裸のままで</td>
+<td>1993/7/25</td>
+<td></td>
+</tr>
+
+<tr>
+<td>7th</td>
+<td>君が思い出になる前に</td>
+<td>1993/10/25</td>
+<td></td>
+</tr>
+
+<tr>
+<td>8th</td>
+<td>空も飛べるはず</td>
+<td>1994/4/25</td>
+<td></td>
+</tr>
+
+<tr>
+<td>9th</td>
+<td>青い車</td>
+<td>1994/7/20</td>
+<td></td>
+</tr>
+
+<tr>
+<td>10th</td>
+<td>スパイダー</td>
+<td>1994/10/26</td>
+<td></td>
+</tr>
+
+<tr>
+<td>11th</td>
+<td>ロビンソン</td>
+<td>1995/4/5</td>
+<td></td>
+</tr>
+
+<tr>
+<td>12th</td>
+<td>涙がキラリ☆</td>
+<td>1995/7/7</td>
+<td></td>
+</tr>
+
+<tr>
+<td>13th</td>
+<td>チェリー</td>
+<td>1996/4/10</td>
+<td></td>
+</tr>
+
+<tr>
+<td>14th</td>
+<td>渚</td>
+<td>1996/9/9</td>
+<td></td>
+</tr>
+
+<tr>
+<td>15th</td>
+<td>スカーレット</td>
+<td>1997/1/29</td>
+<td></td>
+</tr>
+
+<tr>
+<td>16th</td>
+<td>夢じゃない</td>
+<td>1997/4/23</td>
+<td></td>
+</tr>
+
+<tr>
+<td>17th</td>
+<td>運命の人</td>
+<td>1997/11/27</td>
+<td></td>
+</tr>
+
+<tr>
+<td>18th</td>
+<td>冷たい頬／謝々!</td>
+<td>1998/3/18</td>
+<td>両A面。</td>
+</tr>
+
+<tr>
+<td>19th</td>
+<td>楓／スピカ</td>
+<td>1998/7/7</td>
+<td>両A面。</td>
+</tr>
+
+<tr>
+<td>20th</td>
+<td>流れ星</td>
+<td>1999/4/28</td>
+<td></td>
+</tr>
+
+<tr>
+<td>21st</td>
+<td>ホタル</td>
+<td>2000/4/26</td>
+<td></td>
+</tr>
+
+<tr>
+<td>22nd</td>
+<td>メモリーズ／放浪カモメはどこまでも</td>
+<td>2000/6/21</td>
+<td>両A面。</td>
+</tr>
+
+<tr>
+<td>23rd</td>
+<td>遥か</td>
+<td>2001/5/16</td>
+<td></td>
+</tr>
+
+<tr>
+<td>24th</td>
+<td>夢追い虫</td>
+<td>2001/10/11</td>
+<td></td>
+</tr>
+
+<tr>
+<td>25th</td>
+<td>さわって・変わって</td>
+<td>2001/12/12</td>
+<td></td>
+</tr>
+
+<tr>
+<td>26th</td>
+<td>ハネモノ</td>
+<td>2002/8/7</td>
+<td></td>
+</tr>
+
+<tr>
+<td>27th</td>
+<td>水色の街</td>
+<td>同上</td>
+<td></td>
+</tr>
+
+<tr>
+<td>28th</td>
+<td>スターゲイザー</td>
+<td>2004/1/21</td>
+<td></td>
+</tr>
+
+<tr>
+<td>29th</td>
+<td>正夢</td>
+<td>2004/11/10</td>
+<td></td>
+</tr>
+
+<tr>
+<td>30th</td>
+<td>春の歌／テクテク</td>
+<td>2005/4/20</td>
+<td>両A面。</td>
+</tr>
+
+<tr>
+<td>31st</td>
+<td>魔法のコトバ</td>
+<td>2006/7/12</td>
+<td></td>
+</tr>
+
+<tr>
+<td>32nd</td>
+<td>ルキンフォー</td>
+<td>2007/4/18</td>
+<td></td>
+</tr>
+
+<tr>
+<td>33rd</td>
+<td>群青</td>
+<td>2007/8/1</td>
+<td></td>
+</tr>
+
+<tr>
+<td>34th</td>
+<td>若葉</td>
+<td>2008/11/5</td>
+<td></td>
+</tr>
+
+<tr>
+<td>35th</td>
+<td>君は太陽</td>
+<td>2009/8/26</td>
+<td></td>
+</tr>
+
+<tr>
+<td>36th</td>
+<td>つぐみ</td>
+<td>2010/6/23</td>
+<td></td>
+</tr>
+
+<tr>
+<td>37th</td>
+<td>シロクマ／ビギナー</td>
+<td>2010/9/29</td>
+<td>両A面。</td>
+</tr>
+
+<tr>
+<td>38th</td>
+<td>さらさら／僕はきっと旅に出る</td>
+<td>2013/5/15</td>
+<td>両A面。</td>
+</tr>
+
+<tr>
+<td>39th</td>
+<td>愛のことば -2014mix-</td>
+<td>2014/7/15</td>
+<td><b>配信限定。</b>6th「ハチミツ」収録曲のリミックス。アルバム「CYCLE HIT 2006-2017」等に収録。</td>
+</tr>
+
+<tr>
+<td>40th</td>
+<td>雪風</td>
+<td>2015/4/15</td>
+<td><b>配信限定。</b>アルバム「醒めない」等に収録。</td>
+</tr>
+
+<tr>
+<td>41st</td>
+<td>みなと</td>
+<td>2016/4/27</td>
+<td></td>
+</tr>
+
+<tr>
+<td>42nd</td>
+<td>優しいあの子</td>
+<td>2019/6/19?</td>
+<td>約3年ぶり。</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="アルバム">アルバム</h3>
+
+<table>
+<thead>
+<tr>
+<th>・</th>
+<th>タイトル</th>
+<th>発売日</th>
+<th>備考</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>1st</td>
+<td>スピッツ</td>
+<td>1991/3/25</td>
+<td>リマスター済（2002/10/16）</td>
+</tr>
+
+<tr>
+<td>2nd</td>
+<td>名前をつけてやる</td>
+<td>1991/11/25</td>
+<td>リマスター済（2002/10/16）</td>
+</tr>
+
+<tr>
+<td>mini</td>
+<td>オーロラになれなかった人のために</td>
+<td>1992/4/25</td>
+<td>リマスター済（2002/10/16）</td>
+</tr>
+
+<tr>
+<td>3rd</td>
+<td>惑星のかけら</td>
+<td>1992/9/26</td>
+<td>リマスター済（2002/10/16）</td>
+</tr>
+
+<tr>
+<td>4th</td>
+<td>Crispy!</td>
+<td>1993/9/26</td>
+<td>リマスター済（2002/10/16）</td>
+</tr>
+
+<tr>
+<td>5th</td>
+<td>空の飛び方</td>
+<td>1994/9/21</td>
+<td>リマスター済（2002/10/16）</td>
+</tr>
+
+<tr>
+<td>6th</td>
+<td>ハチミツ</td>
+<td>1995/9/20</td>
+<td>リマスター済（2002/10/16）</td>
+</tr>
+
+<tr>
+<td>7th</td>
+<td>インディゴ地平線</td>
+<td>1996/10/23</td>
+<td>リマスター済（2002/10/16）</td>
+</tr>
+
+<tr>
+<td>8th</td>
+<td>フェイクファー</td>
+<td>1998/3/25</td>
+<td>リマスター済（2002/10/16）</td>
+</tr>
+
+<tr>
+<td>EP</td>
+<td>99ep</td>
+<td>1999/1/1</td>
+<td>初EP</td>
+</tr>
+
+<tr>
+<td>1st sp</td>
+<td>花鳥風月</td>
+<td>1999/3/25</td>
+<td>初スペシャルアルバム</td>
+</tr>
+
+<tr>
+<td>Best</td>
+<td>RECYCLE Greatest Hits of <p class="mirror-text">SPITZ</p></td>
+<td>1999/12/15</td>
+<td>初ベスト 『CYCLE HIT』の発売に伴い製造中止。</td>
+</tr>
+
+<tr>
+<td>9th</td>
+<td>ハヤブサ</td>
+<td>2000/7/26</td>
+<td></td>
+</tr>
+
+<tr>
+<td>10th</td>
+<td>三日月ロック</td>
+<td>2002/9/11</td>
+<td></td>
+</tr>
+
+<tr>
+<td>2nd sp</td>
+<td>色色衣</td>
+<td>2004/3/17</td>
+<td></td>
+</tr>
+
+<tr>
+<td>11th</td>
+<td>スーベニア</td>
+<td>2005/1/12</td>
+<td></td>
+</tr>
+
+<tr>
+<td>1st SC</td>
+<td>CYCLE HIT 1991-1997 Spitz Complete Single Collection</td>
+<td>2006/3/25</td>
+<td>初シングルコレクション リマスター済（2017/7/5）</td>
+</tr>
+
+<tr>
+<td>2nd SC</td>
+<td>CYCLE HIT 1997-2005 Spitz Complete Single Collection</td>
+<td>2006/3/25</td>
+<td>シングルコレクション第2弾 リマスター済（2017/7/5）</td>
+</tr>
+
+<tr>
+<td>12th</td>
+<td>さざなみCD</td>
+<td>2007/10/10</td>
+<td></td>
+</tr>
+
+<tr>
+<td>13th</td>
+<td>とげまる</td>
+<td>2010/10/27</td>
+<td></td>
+</tr>
+
+<tr>
+<td>3rd Sp</td>
+<td>おるたな</td>
+<td>2012/2/1</td>
+<td></td>
+</tr>
+
+<tr>
+<td>14th</td>
+<td>小さな生き物</td>
+<td>2013/9/11</td>
+<td>初の複数形態での発売</td>
+</tr>
+
+<tr>
+<td>15th</td>
+<td>醒めない</td>
+<td>2016/7/27</td>
+<td>初めてファンクラブ限定盤を発売</td>
+</tr>
+
+<tr>
+<td>Complete Box</td>
+<td>CYCLE HIT 1991-2017 Spitz Complete Single Collection -30th Anniversary BOX-</td>
+<td>2017/7/5</td>
+<td>CD3枚組の初コンプリート・ボックス。『CYCLE HIT』シリーズ3枚をセットにしたもので2017年内限定出荷。</td>
+</tr>
+
+<tr>
+<td>3rd SC</td>
+<td>CYCLE HIT 2006-2017 Spitz Complete Single Collection</td>
+<td>2017/7/5</td>
+<td>シングルコレクション第3弾 コンプリート・ボックスと同時発売</td>
+</tr>
+</tbody>
+</table>
+</p>
+      </div>
+      <div class="line"></div>
+      <div class="entry-date">記事作成日: 2019/04/07 13:13　最終更新日: 2019/04/07 14:57</div>
+    </article>
+  </main>
+</body>
