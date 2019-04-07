@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-	<meta name="generator" content="Hugo 0.54.0" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -26,10 +25,13 @@
             });
         });    
     </script>
-    <title>せれぶろ</title>
+    <title>せれぶろ / Categories</title>
     <div class="header">
         <a id="logoa" href="http://kareha532.github.io/cerebro/"><img id="logo" src="http://kareha532.github.io/cerebro/images/logo.png" alt="Cerebro" srcset=""></a>
         <span class="a">ひとりでつくる百科事典 Since 2019</span>
+        <span class="icon">
+            <button id="clicksearch"><i class="icofont-search-1"></i></button>
+        </span>
         <span class="icon">
             <a href="http://kareha532.github.io/cerebro/post"><button><i class="icofont-list"></i></button></a>
         </span>
@@ -37,20 +39,13 @@
             <a href="http://kareha532.github.io/cerebro/info"><button><i class="icofont-info"></i></button></a>
         </span>
     </div>
-    </div>
-</head>
-<script src="http://kareha532.github.io/cerebro/pagelist.b09c8d25ae647382d5c7d0c62833975ab9ab08f9f1d1c4f2e9594e6132e77c32.json" async></script>
-<script src="http://kareha532.github.io/cerebro/js/hugo-random.0f55d91267fd3e9c790f5ae8e706899bc45e69d8c42588ee8f22e691634f2086.js" async></script>
 
-<div class="container">
-    
-    <div class="searchform">
-        <div class="searchbox">
-            <p class="boxtxt">What Are You Looking For?</p>
+    <div id="searchform">
+        <div id="searchbox">
+            <p id="boxtxt">何をお探しですか？</p>
         </div>
-
-        <div class="search" id="search1">
-            <input id="searchbox" type="text" placeholder="" v-model="txt" @keyup="search()" @blur="close()"
+        <div class="search" id="search">
+            <input id="searchbox" type="text" placeholder="検索" v-model="txt" @keyup="search()" @blur="close()"
                 maxlength="50">
             <div class="search-results" :style="{'display': showresult?'inline-block':'none'}">
                 <a v-for="item in result" :href="item.url">{{ item.title }}</a>
@@ -63,7 +58,7 @@
 
             <script>
                 let vuesearch = new Vue({
-                    el: '#search1', 
+                    el: '#search', 
                     data: {
                         txt: '', 
                         timeoutID: 0, 
@@ -125,17 +120,19 @@
         </div>
         <button href="#" class="rmd" onclick="random_jump();">Explore!</button>
     </div>
-</div>
-<main class="main" role="main">
-    <div><span id="soukoumoku">総記事数</span>
-        0</div>
-    <div class="lists">
-        <p style="display: inline;" id="saisinkiji">最新記事</p>
-        <span id="lastest"><a href="http://kareha532.github.io/cerebro/search/index.json"><strong>Search</strong></a> / 2018/09/04<br>
-            </span>
-    </div>
-    </div>
-</main>
-</body>
+</head>
+<script src="http://kareha532.github.io/cerebro/pagelist.b09c8d25ae647382d5c7d0c62833975ab9ab08f9f1d1c4f2e9594e6132e77c32.json" async></script>
+<script src="http://kareha532.github.io/cerebro/js/hugo-random.0f55d91267fd3e9c790f5ae8e706899bc45e69d8c42588ee8f22e691634f2086.js" async></script>
 
-</html>
+<main class="main" role="main">
+    <article>
+      <header>
+          <h1 class="main">Categories</h1>
+      </header>
+      
+    </article>
+    <ul class="pagesul">
+        
+    </ul>
+  </main>
+</body>

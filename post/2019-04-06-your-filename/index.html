@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="http://kareha532.github.io/cerebro/css/style.css">
+    <link rel="stylesheet" href="http://kareha532.github.io/cerebro/css/icofont/icofont.min.css">
+    <script src="http://kareha532.github.io/cerebro/js/jquery-3.3.1.min.js"></script>
+
+    <script>
+        $(function () {
+            $("#clicksearch").click(function () {
+                $("#searchform").toggle();
+            });
+        });
+
+    </script>
+    <script>
+        $(function () {
+            $("#submit").click(function () {
+                $("#result").toggle();
+            });
+        });    
+    </script>
+    <title>せれぶろ / </title>
+    <div class="header">
+        <a id="logoa" href="http://kareha532.github.io/cerebro/"><img id="logo" src="http://kareha532.github.io/cerebro/images/logo.png" alt="Cerebro" srcset=""></a>
+        <span class="a">ひとりでつくる百科事典</span>
+        <span class="icon">
+            <button id="clicksearch"><i class="icofont-search-1"></i></button>
+        </span>
+        <span class="icon">
+            <button><i class="icofont-info"></i></button>
+        </span>
+    </div>
+
+    <div id="searchform">
+            <div id="searchbox">
+                <p id="boxtxt">何をお探しですか？</p>
+            </div>
+            <div class="search" id="search">
+                <input id="searchbox" type="text" placeholder="すべてはここから..." v-model="txt" @keyup="search()" @blur="close()"
+                    maxlength="50">
+                <div class="search-results" :style="{'display': showresult?'inline-block':'none'}">
+                    <a v-for="item in result" :href="item.url">{{ item.title }}</a>
+                </div>
+                
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.min.js"
+                    integrity="sha256-FtWfRI+thWlNz2sB3SJbwKx5PgMyKIVgwHCTwa3biXc=" crossorigin="anonymous"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"
+                    integrity="sha256-mpnrJ5DpEZZkwkE1ZgkEQQJW/46CSEh/STrZKOB/qoM=" crossorigin="anonymous"></script>
+    
+                <script>
+                    let vuesearch = new Vue({
+                        el: '#search', 
+                        data: {
+                            txt: '', 
+                            timeoutID: 0, 
+                            showresult: false, 
+                            result: {}, 
+                            bdd: [] 
+                        },
+                        mounted: function () {
+                            
+                            axios.get('http:\/\/kareha532.github.io\/cerebro\/search\/index.json')
+                                .then(function (response) {
+                                    vuesearch.bdd = response.data.results;
+                                })
+                                .catch(function (error) {
+                                    console.log(error);
+                                });
+                        },
+                        methods: {
+                            close: function () {
+                                
+                                
+                                setTimeout(function () {
+                                    vuesearch.showresult = false;
+                                    vuesearch.txt = '';
+                                }, 300);
+                            },
+                            search: function () {
+                                
+                                clearTimeout(this.timeoutID);
+                                this.timeoutID = setTimeout(this.dosearch, 500);
+                            },
+                            dosearch: function () {
+                                
+                                this.result = []; 
+                                let words = this.txt.split(' '); 
+                                let words2 = []; 
+                                words.forEach(function (element) { 
+                                    if (element) { words2.push(element); }
+                                });
+                                let r;
+                                let resultmp;
+                                words2.forEach(function (e) { 
+                                    r = vuesearch.bdd.filter(p => p.content.indexOf(e.toLowerCase()) !== -1);
+                                    if (vuesearch.result.length === 0) { vuesearch.result = r.slice(); return; }
+                                    resultmp = [];
+                                    vuesearch.result.forEach(function (all1) {
+                                        r.forEach(function (all2) { 
+                                            if (all1.url === all2.url) { resultmp.push(all1); }
+                                        });
+                                    });
+                                    vuesearch.result = resultmp.slice();
+                                });
+                                this.result = this.result.slice(0, 10); 
+                                this.showresult = (this.result.length > 0); 
+                            } 
+                        } 
+                    }); 
+                </script>
+    
+            </div>
+        </div>
+    </head>
+
+<body>
+  <main class="main" role="main">
+    <article>
+      <header class="entry-header">
+        <h1 class="main"></h1>
+      </header>
+      <div class="entry-content">
+        <p>
+
+<h2 id="a-new-post">A New Post</h2>
+
+<p>Enter text in <a href="http://daringfireball.net/projects/markdown/">Markdown</a>. Use the toolbar above, or click the <strong>?</strong> button for formatting help.</p>
+</p>
+      </div>
+      <div class="entry-date">記事作成日: 0001/01/01 00:00</div>
+      <div class="entry-date">最終更新日: 0001/01/01 00:00</div>
+    </article>
+  </main>
+</body>
