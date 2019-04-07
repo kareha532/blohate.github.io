@@ -6,5 +6,9 @@ var sitePageList = [
   {
     "title": "Apple.Inc",
     "url": "https://cerebro532.netlify.com/post/apple-inc/"
+  }, 
+  {
+    "title": "Fortnite",
+    "url": "https://cerebro532.netlify.com/post/fortnite/"
   }
 ]
