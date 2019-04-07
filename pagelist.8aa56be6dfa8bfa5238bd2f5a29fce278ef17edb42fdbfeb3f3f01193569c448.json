@@ -1,0 +1,6 @@
+var sitePageList = [
+  {
+    "title": "Hugo",
+    "url": "https://cerebro532.netlify.com/post/hugo/"
+  }
+]
