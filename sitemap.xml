@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://cerebro532.netlify.com/post/hugo/</loc>
+    <lastmod>2019-04-07T15:38:17+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://cerebro532.netlify.com/search/index.json</loc>
     <lastmod>2018-09-04T15:32:54+02:00</lastmod>
   </url>
@@ -13,13 +18,19 @@
   </url>
   
   <url>
+    <loc>http://cerebro532.netlify.com/post/</loc>
+    <lastmod>2019-04-07T15:38:17+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://cerebro532.netlify.com/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://cerebro532.netlify.com/</loc>
-    <lastmod>2018-09-04T15:32:54+02:00</lastmod>
+    <lastmod>2019-04-07T15:38:17+00:00</lastmod>
     <priority>0</priority>
   </url>
   

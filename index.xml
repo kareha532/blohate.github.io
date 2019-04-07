@@ -6,10 +6,19 @@
     <description>Recent content on せれぶろ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Sep 2018 15:32:54 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 07 Apr 2019 15:38:17 +0000</lastBuildDate>
     
 	<atom:link href="http://cerebro532.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hugo</title>
+      <link>http://cerebro532.netlify.com/post/hugo/</link>
+      <pubDate>Sun, 07 Apr 2019 15:38:17 +0000</pubDate>
+      
+      <guid>http://cerebro532.netlify.com/post/hugo/</guid>
+      <description>  .zakkuri2 { position: relative; margin: 1em 0 2em; padding: 26px 0 0 0; display: flex; align-items: center; } .zakkuri2s { text-align: center; border-radius: 50px; padding: 5px 20px; font-size: 12px; color: white; background: #e84118; cursor: default; min-width: 80px; height: 12px; line-height: 12px; margin: 0; } #zakkuri2p { font-size: 14px; margin-left: 10px; }  ざっくり言うと  静的サイトジェネレーター（SSG）。高速なビルドと拡張性が特徴。このサイトの源。   </description>
+    </item>
     
     <item>
       <title>Search</title>

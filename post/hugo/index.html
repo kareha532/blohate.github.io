@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-	<meta name="generator" content="Hugo 0.54.0" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -26,10 +25,13 @@
             });
         });    
     </script>
-    <title>せれぶろ</title>
+    <title>せれぶろ / Hugo</title>
     <div class="header">
         <a id="logoa" href="http://cerebro532.netlify.com/"><img id="logo" src="http://cerebro532.netlify.com/images/logo.png" alt="Cerebro" srcset=""></a>
         <span class="a">ひとりでつくる百科事典 Since 2019</span>
+        <span class="icon">
+            <button id="clicksearch"><i class="icofont-search-1"></i></button>
+        </span>
         <span class="icon">
             <a href="http://cerebro532.netlify.com/post"><button><i class="icofont-list"></i></button></a>
         </span>
@@ -37,20 +39,13 @@
             <a href="http://cerebro532.netlify.com/info"><button><i class="icofont-info"></i></button></a>
         </span>
     </div>
-    </div>
-</head>
-<script src="http://cerebro532.netlify.com/pagelist.62073827d4f1d726dd995707a3434d3504700a97b90749ab5ae144238523fac4.json" async></script>
-<script src="http://cerebro532.netlify.com/js/hugo-random.0f55d91267fd3e9c790f5ae8e706899bc45e69d8c42588ee8f22e691634f2086.js" async></script>
 
-<div class="container">
-    
-    <div class="searchform">
-        <div class="searchbox">
-            <p class="boxtxt">What Are You Looking For?</p>
+    <div id="searchform">
+        <div id="searchbox">
+            <p id="boxtxt">何をお探しですか？</p>
         </div>
-
-        <div class="search" id="search1">
-            <input id="searchbox" type="text" placeholder="" v-model="txt" @keyup="search()" @blur="close()"
+        <div class="search" id="search">
+            <input id="searchbox" type="text" placeholder="検索" v-model="txt" @keyup="search()" @blur="close()"
                 maxlength="50">
             <div class="search-results" :style="{'display': showresult?'inline-block':'none'}">
                 <a v-for="item in result" :href="item.url">{{ item.title }}</a>
@@ -63,7 +58,7 @@
 
             <script>
                 let vuesearch = new Vue({
-                    el: '#search1', 
+                    el: '#search', 
                     data: {
                         txt: '', 
                         timeoutID: 0, 
@@ -125,18 +120,61 @@
         </div>
         <button href="#" class="rmd" onclick="random_jump();">Explore!</button>
     </div>
-</div>
-<main class="main" role="main">
-    <div><span id="soukoumoku">総記事数</span>
-        1</div>
-    <div class="lists">
-        <p style="display: inline;" id="saisinkiji">最新記事</p>
-        <span id="lastest"><a href="http://cerebro532.netlify.com/post/hugo/"><strong>Hugo</strong></a> / 2019/04/07<br>
-            <a href="http://cerebro532.netlify.com/search/index.json"><strong>Search</strong></a> / 2018/09/04<br>
-            </span>
-    </div>
-    </div>
-</main>
-</body>
+</head>
+<script src="http://cerebro532.netlify.com/pagelist.62073827d4f1d726dd995707a3434d3504700a97b90749ab5ae144238523fac4.json" async></script>
+<script src="http://cerebro532.netlify.com/js/hugo-random.0f55d91267fd3e9c790f5ae8e706899bc45e69d8c42588ee8f22e691634f2086.js" async></script>
 
-</html>
+
+<body>
+  <main class="main" role="main">
+    <article>
+      <header class="entry-header">
+        <h1 class="main">Hugo</h1>
+      </header>
+      <div class="entry-content">
+        <p>
+
+<style>
+  .zakkuri2 {
+    position: relative;
+    margin: 1em 0 2em;
+    padding: 26px 0 0 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .zakkuri2s {
+    text-align: center;
+    border-radius: 50px;
+    padding: 5px 20px;
+    font-size: 12px;
+    color: white;
+    background: #e84118;
+    cursor: default;
+    min-width: 80px;
+    height: 12px;
+    line-height: 12px;
+    margin: 0;
+  }
+
+  #zakkuri2p {
+    font-size: 14px;
+    margin-left: 10px;
+  }
+</style>
+
+<div class="zakkuri2">
+  <span onselectstart="return false;" class="zakkuri2s">
+    ざっくり言うと
+  </span>
+  <span id="zakkuri2p">
+    静的サイトジェネレーター（SSG）。高速なビルドと拡張性が特徴。このサイトの源。
+  </span>
+</div>
+</p>
+      </div>
+      <div class="line"></div>
+      <div class="entry-date">記事作成日: 2019/04/07 15:38　最終更新日: 2019/04/07 15:38</div>
+    </article>
+  </main>
+</body>
