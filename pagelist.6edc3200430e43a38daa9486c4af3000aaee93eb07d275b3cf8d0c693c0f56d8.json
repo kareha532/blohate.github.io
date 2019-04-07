@@ -1,5 +1,9 @@
 var sitePageList = [
   {
+    "title": "Android",
+    "url": "https://cerebro532.netlify.com/post/android/"
+  }, 
+  {
     "title": "clipbook",
     "url": "https://cerebro532.netlify.com/post/clipbook/"
   }, 
