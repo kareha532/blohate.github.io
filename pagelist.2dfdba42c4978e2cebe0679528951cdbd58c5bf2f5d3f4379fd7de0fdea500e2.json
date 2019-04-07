@@ -2,5 +2,9 @@ var sitePageList = [
   {
     "title": "Hugo",
     "url": "https://cerebro532.netlify.com/post/hugo/"
+  }, 
+  {
+    "title": "Apple.Inc",
+    "url": "https://cerebro532.netlify.com/post/apple-inc/"
   }
 ]
