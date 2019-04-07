@@ -4,6 +4,10 @@ var sitePageList = [
     "url": "https://cerebro532.netlify.com/post/hugo/"
   }, 
   {
+    "title": "Oasis",
+    "url": "https://cerebro532.netlify.com/post/oasis/"
+  }, 
+  {
     "title": "Apple.Inc",
     "url": "https://cerebro532.netlify.com/post/apple-inc/"
   }, 
