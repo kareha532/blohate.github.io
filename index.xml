@@ -6,10 +6,19 @@
     <description>Recent content on せれぶろ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 07 Apr 2019 16:01:03 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 07 Apr 2019 16:39:22 +0000</lastBuildDate>
     
 	<atom:link href="https://cerebro532.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Go言語</title>
+      <link>https://cerebro532.netlify.com/post/go%E8%A8%80%E8%AA%9E/</link>
+      <pubDate>Sun, 07 Apr 2019 16:39:22 +0000</pubDate>
+      
+      <guid>https://cerebro532.netlify.com/post/go%E8%A8%80%E8%AA%9E/</guid>
+      <description>.zakkuri2 { position: relative; margin: 1em 0 2em; padding: 26px 0 0 0; display: flex; align-items: center; } .zakkuri2s { text-align: center; border-radius: 50px; padding: 5px 20px; font-size: 12px; color: white; background: #e84118; cursor: default; min-width: 80px; height: 12px; line-height: 12px; margin: 0; } #zakkuri2p { font-size: 14px; margin-left: 10px; }  ざっくり言うと  Googleにより設計されたプログラミング言語。Hugoでしか使われている所を見たことがない。主にWeb関係で用いられることが多い(?)。   Go言語（ごーげんご・Go・Golang）、GoogleのRobert Griesemer、ロブ・パイク、ケン・トンプソンらによって設計されたプログラミング言語。ツール群は全てオープンソース・ライセンスフリー。</description>
+    </item>
     
     <item>
       <title>サンドウィッチマン</title>
