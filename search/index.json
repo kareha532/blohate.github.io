@@ -4,6 +4,12 @@
 
 
     {
+    "url": "https://cerebro532.netlify.com/post/clipbook/",
+    "title": "clipbook",
+    "content": ".zakkuri2 position: relative; margin: 1em 2em; padding: 26px 0; display: flex; align-items: center; .zakkuri2s text-align: border-radius: 50px; 5px 20px; font-size: 12px; color: white; background: #e84118; cursor: default; min-width: 80px; height: line-height: #zakkuri2p 14px; margin-left: 10px; ざっくり言うと filofax（ファイロファックス）が販売しているシステム手帳。一応これでもシステム手帳。リングが30mmと大きく、カバーにリングを巻き付けたデザインが特徴。 clipbook（くりっぷぶっく・クリップブック）、[ファイロファックス社]（/post/filofax）によって設計・発売されているシステム手帳およびノートブック。 "
+    },
+
+    {
     "url": "https://cerebro532.netlify.com/post/go%E8%A8%80%E8%AA%9E/",
     "title": "Go言語",
     "content": ".zakkuri2 position: relative; margin: 1em 2em; padding: 26px 0; display: flex; align-items: center; .zakkuri2s text-align: border-radius: 50px; 5px 20px; font-size: 12px; color: white; background: #e84118; cursor: default; min-width: 80px; height: line-height: #zakkuri2p 14px; margin-left: 10px; ざっくり言うと googleにより設計されたプログラミング言語。hugoでしか使われている所を見たことがない。主にweb関係で用いられることが多い(?)。 go言語（ごーげんご・go・golang）、googleのrobert griesemer、ロブ・パイク、ケン・トンプソンらによって設計されたプログラミング言語。ツール群は全てオープンソース・ライセンスフリー。 "
