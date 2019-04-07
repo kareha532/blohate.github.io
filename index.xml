@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>せれぶろ</title>
-    <link>http://kareha532.github.io/cerebro/</link>
+    <link>http://cerebro532.netlify.com/</link>
     <description>Recent content on せれぶろ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 04 Sep 2018 15:32:54 +0200</lastBuildDate>
     
-	<atom:link href="http://kareha532.github.io/cerebro/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://cerebro532.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Search</title>
-      <link>http://kareha532.github.io/cerebro/search/index.json</link>
+      <link>http://cerebro532.netlify.com/search/index.json</link>
       <pubDate>Tue, 04 Sep 2018 15:32:54 +0200</pubDate>
       
-      <guid>http://kareha532.github.io/cerebro/search/index.json</guid>
+      <guid>http://cerebro532.netlify.com/search/index.json</guid>
       <description></description>
     </item>
     
