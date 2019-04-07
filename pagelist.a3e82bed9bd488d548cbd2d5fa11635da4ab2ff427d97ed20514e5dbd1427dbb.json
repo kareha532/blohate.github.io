@@ -1,5 +1,9 @@
 var sitePageList = [
   {
+    "title": "サンドウィッチマン",
+    "url": "https://cerebro532.netlify.com/post/%E3%82%B5%E3%83%B3%E3%83%89%E3%82%A6%E3%82%A3%E3%83%83%E3%83%81%E3%83%9E%E3%83%B3/"
+  }, 
+  {
     "title": "Hugo",
     "url": "https://cerebro532.netlify.com/post/hugo/"
   }, 
