@@ -493,5 +493,7 @@ a:visited {
 }
 
 #notfound {
-
+    margin-top: 60px;
+    text-align: center;
+    font-size: 144px;
 }
