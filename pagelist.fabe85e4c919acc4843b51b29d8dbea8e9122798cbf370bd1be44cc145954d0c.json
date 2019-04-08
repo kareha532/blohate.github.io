@@ -66,5 +66,9 @@ var sitePageList = [
   {
     "title": "あ",
     "url": "https://cerebro532.netlify.com/post/%E3%81%82/"
+  }, 
+  {
+    "title": "たこ焼き",
+    "url": "https://cerebro532.netlify.com/post/%E3%81%9F%E3%81%93%E7%84%BC%E3%81%8D/"
   }
 ]
