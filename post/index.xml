@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>たこ焼き</title>
+      <link>https://cerebro532.netlify.com/post/%E3%81%9F%E3%81%93%E7%84%BC%E3%81%8D/</link>
+      <pubDate>Mon, 08 Apr 2019 22:12:43 +0000</pubDate>
+      
+      <guid>https://cerebro532.netlify.com/post/%E3%81%9F%E3%81%93%E7%84%BC%E3%81%8D/</guid>
+      <description>.zakkuri2 { position: relative; margin: 1em 0 2em; padding: 26px 0 0 0; display: flex; align-items: center; } .zakkuri2s { text-align: center; border-radius: 50px; padding: 5px 20px; font-size: 12px; color: white; background: #e84118; cursor: default; min-width: 80px; height: 12px; line-height: 12px; margin: 0; } #zakkuri2p { font-size: 14px; margin-left: 10px; }  ざっくり言うと  大阪(?)生まれの食べ物。球形の小麦粉の生地の中に切り落としたタコを入れ、焼いたもの。   たこ焼き（たこやき・Takoyaki）、タコの切り身を小麦粉の生地で包み、球形に丸め、焼いて調理したもの。</description>
+    </item>
+    
+    <item>
       <title>Android</title>
       <link>https://cerebro532.netlify.com/post/android/</link>
       <pubDate>Sun, 07 Apr 2019 16:51:43 +0000</pubDate>
