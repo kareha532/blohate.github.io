@@ -1,5 +1,9 @@
 var sitePageList = [
   {
+    "title": "TOS",
+    "url": "http://localhost/cerebro/docs/post/tos/"
+  }, 
+  {
     "title": "運命の人",
     "url": "http://localhost/cerebro/docs/post/%E9%81%8B%E5%91%BD%E3%81%AE%E4%BA%BA/"
   }, 
