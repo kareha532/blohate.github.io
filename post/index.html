@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="icon" type="image/png" href="https://cerebro532.netlify.com/images/favicon.png">
-    <link rel="stylesheet" href="https://cerebro532.netlify.com/css/style.css">
-    <link rel="stylesheet" href="https://cerebro532.netlify.com/css/icofont/icofont.min.css">
-    <script src="https://cerebro532.netlify.com/js/jquery-3.3.1.min.js"></script>
+    <link rel="icon" type="image/png" href="http://localhost/cerebro/docs/images/favicon.png">
+    <link rel="stylesheet" href="http://localhost/cerebro/docs/css/style.css">
+    <link rel="stylesheet" href="http://localhost/cerebro/docs/css/icofont/icofont.min.css">
+    <script src="http://localhost/cerebro/docs/js/jquery-3.3.1.min.js"></script>
 
     <script>
         $(function () {
@@ -27,16 +27,16 @@
     </script>
     <title>せれぶろ / 記事一覧(A～Z→あ～ん)</title>
     <div class="header">
-        <a id="logoa" href="https://cerebro532.netlify.com/"><img id="logo" src="https://cerebro532.netlify.com/images/logo.png" alt="Cerebro" srcset=""></a>
+        <a id="logoa" href="http://localhost/cerebro/docs/"><img id="logo" src="http://localhost/cerebro/docs/images/logo.png" alt="Cerebro" srcset=""></a>
         <span class="a">ひとりでつくる百科事典 Since 2019</span>
         <span class="icon">
             <button id="clicksearch"><i class="icofont-search-1"></i></button>
         </span>
         <span class="icon">
-            <a href="https://cerebro532.netlify.com/post"><button><i class="icofont-list"></i></button></a>
+            <a href="http://localhost/cerebro/docs/post"><button><i class="icofont-list"></i></button></a>
         </span>
         <span class="icon">
-            <a href="https://cerebro532.netlify.com/info"><button><i class="icofont-info"></i></button></a>
+            <a href="http://localhost/cerebro/docs/info"><button><i class="icofont-info"></i></button></a>
         </span>
     </div>
 
@@ -68,7 +68,7 @@
                     },
                     mounted: function () {
                         
-                        axios.get('https:\/\/cerebro532.netlify.com\/search\/index.json')
+                        axios.get('http:\/\/localhost\/cerebro\/docs\/search\/index.json')
                             .then(function (response) {
                                 vuesearch.bdd = response.data.results;
                             })
@@ -121,8 +121,8 @@
         <button href="#" class="rmd" onclick="random_jump();">Explore!</button>
     </div>
 </head>
-<script src="https://cerebro532.netlify.com/pagelist.a3e82bed9bd488d548cbd2d5fa11635da4ab2ff427d97ed20514e5dbd1427dbb.json" async></script>
-<script src="https://cerebro532.netlify.com/js/hugo-random.0f55d91267fd3e9c790f5ae8e706899bc45e69d8c42588ee8f22e691634f2086.js" async></script>
+<script src="http://localhost/cerebro/docs/pagelist.33d978c6374a4908f6815671cdb37cb9be3244aeb9c0931c8290405ea985f763.json" async></script>
+<script src="http://localhost/cerebro/docs/js/hugo-random.0f55d91267fd3e9c790f5ae8e706899bc45e69d8c42588ee8f22e691634f2086.js" async></script>
 
 <main class="main" role="main">
     <article>
@@ -134,59 +134,75 @@
     <ul class="pagesul">
         
       <li id="pages">
-        <a class="plink" href="https://cerebro532.netlify.com/post/apple-inc/">Apple.Inc</a>
+        <a class="plink" href="http://localhost/cerebro/docs/post/android/">Android</a>
       </li>
       
       <li id="pages">
-        <a class="plink" href="https://cerebro532.netlify.com/post/fortnite/">Fortnite</a>
+        <a class="plink" href="http://localhost/cerebro/docs/post/apple-inc/">Apple.Inc</a>
       </li>
       
       <li id="pages">
-        <a class="plink" href="https://cerebro532.netlify.com/post/hugo/">Hugo</a>
+        <a class="plink" href="http://localhost/cerebro/docs/post/fortnite/">Fortnite</a>
       </li>
       
       <li id="pages">
-        <a class="plink" href="https://cerebro532.netlify.com/post/oasis/">Oasis</a>
+        <a class="plink" href="http://localhost/cerebro/docs/post/go%E8%A8%80%E8%AA%9E/">Go言語</a>
       </li>
       
       <li id="pages">
-        <a class="plink" href="https://cerebro532.netlify.com/post/%E3%81%82/">あ</a>
+        <a class="plink" href="http://localhost/cerebro/docs/post/hugo/">Hugo</a>
       </li>
       
       <li id="pages">
-        <a class="plink" href="https://cerebro532.netlify.com/post/%E3%82%A2%E3%83%83%E3%83%97%E3%83%AB/">アップル</a>
+        <a class="plink" href="http://localhost/cerebro/docs/post/oasis/">Oasis</a>
       </li>
       
       <li id="pages">
-        <a class="plink" href="https://cerebro532.netlify.com/post/%E3%82%A2%E3%83%83%E3%83%97%E3%83%AB%E3%82%AA%E3%83%BC%E3%83%88%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE/">アップルオートネットワーク株式会社</a>
+        <a class="plink" href="http://localhost/cerebro/docs/post/clipbook/">clipbook</a>
       </li>
       
       <li id="pages">
-        <a class="plink" href="https://cerebro532.netlify.com/post/%E3%82%B5%E3%83%B3%E3%83%89%E3%82%A6%E3%82%A3%E3%83%83%E3%83%81%E3%83%9E%E3%83%B3/">サンドウィッチマン</a>
+        <a class="plink" href="http://localhost/cerebro/docs/post/%E3%81%82/">あ</a>
       </li>
       
       <li id="pages">
-        <a class="plink" href="https://cerebro532.netlify.com/post/%E3%82%B8%E3%83%A3%E3%83%AB%E3%82%B8%E3%83%A3%E3%83%AB/">ジャルジャル</a>
+        <a class="plink" href="http://localhost/cerebro/docs/post/%E3%82%A2%E3%83%83%E3%83%97%E3%83%AB/">アップル</a>
       </li>
       
       <li id="pages">
-        <a class="plink" href="https://cerebro532.netlify.com/post/%E3%82%B9%E3%83%94%E3%83%83%E3%83%84/">スピッツ（バンド）</a>
+        <a class="plink" href="http://localhost/cerebro/docs/post/%E3%82%A2%E3%83%83%E3%83%97%E3%83%AB%E3%82%AA%E3%83%BC%E3%83%88%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE/">アップルオートネットワーク株式会社</a>
       </li>
       
       <li id="pages">
-        <a class="plink" href="https://cerebro532.netlify.com/post/%E3%83%95%E3%82%A9%E3%83%BC%E3%83%88%E3%83%8A%E3%82%A4%E3%83%88/">フォートナイト</a>
+        <a class="plink" href="http://localhost/cerebro/docs/post/%E3%82%B8%E3%83%A3%E3%83%AB%E3%82%B8%E3%83%A3%E3%83%AB/">ジャルジャル</a>
       </li>
       
       <li id="pages">
-        <a class="plink" href="https://cerebro532.netlify.com/post/%E3%83%9E%E3%82%A4%E3%82%AF%E3%83%AD%E3%82%BD%E3%83%95%E3%83%88/">マイクロソフト</a>
+        <a class="plink" href="http://localhost/cerebro/docs/post/%E3%82%B9%E3%83%94%E3%83%83%E3%83%84/">スピッツ（バンド）</a>
       </li>
       
       <li id="pages">
-        <a class="plink" href="https://cerebro532.netlify.com/post/%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%E3%82%BA/">ラーメンズ</a>
+        <a class="plink" href="http://localhost/cerebro/docs/post/%E3%83%95%E3%82%A9%E3%83%BC%E3%83%88%E3%83%8A%E3%82%A4%E3%83%88/">フォートナイト</a>
       </li>
       
       <li id="pages">
-        <a class="plink" href="https://cerebro532.netlify.com/post/%E6%9E%97%E6%AA%8E/">林檎</a>
+        <a class="plink" href="http://localhost/cerebro/docs/post/%E3%83%9E%E3%82%A4%E3%82%AF%E3%83%AD%E3%82%BD%E3%83%95%E3%83%88/">マイクロソフト</a>
+      </li>
+      
+      <li id="pages">
+        <a class="plink" href="http://localhost/cerebro/docs/post/%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%E3%82%BA/">ラーメンズ</a>
+      </li>
+      
+      <li id="pages">
+        <a class="plink" href="http://localhost/cerebro/docs/post/%E6%9E%97%E6%AA%8E/">林檎</a>
+      </li>
+      
+      <li id="pages">
+        <a class="plink" href="http://localhost/cerebro/docs/post/%E9%81%8B%E5%91%BD%E3%81%AE%E4%BA%BA/">運命の人</a>
+      </li>
+      
+      <li id="pages">
+        <a class="plink" href="http://localhost/cerebro/docs/post/%E9%A2%A8%E3%81%A8%E6%A1%B6%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E5%B9%BE%E3%81%A4%E3%81%8B%E3%81%AE%E8%80%83%E5%AF%9F/">風と桶に関する幾つかの考察</a>
       </li>
       
     </ul>

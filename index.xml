@@ -2,78 +2,115 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>せれぶろ</title>
-    <link>https://cerebro532.netlify.com/</link>
+    <link>http://localhost/cerebro/docs/</link>
     <description>Recent content on せれぶろ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 07 Apr 2019 16:01:03 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 Apr 2019 13:13:39 +0000</lastBuildDate>
     
-	<atom:link href="https://cerebro532.netlify.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/cerebro/docs/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>サンドウィッチマン</title>
-      <link>https://cerebro532.netlify.com/post/%E3%82%B5%E3%83%B3%E3%83%89%E3%82%A6%E3%82%A3%E3%83%83%E3%83%81%E3%83%9E%E3%83%B3/</link>
-      <pubDate>Sun, 07 Apr 2019 16:01:03 +0000</pubDate>
+      <title>運命の人</title>
+      <link>http://localhost/cerebro/docs/post/%E9%81%8B%E5%91%BD%E3%81%AE%E4%BA%BA/</link>
+      <pubDate>Tue, 09 Apr 2019 13:13:39 +0000</pubDate>
       
-      <guid>https://cerebro532.netlify.com/post/%E3%82%B5%E3%83%B3%E3%83%89%E3%82%A6%E3%82%A3%E3%83%83%E3%83%81%E3%83%9E%E3%83%B3/</guid>
-      <description>  .zakkuri2 { position: relative; margin: 1em 0 2em; padding: 26px 0 0 0; display: flex; align-items: center; } .zakkuri2s { text-align: center; border-radius: 50px; padding: 5px 20px; font-size: 12px; color: white; background: #e84118; cursor: default; min-width: 80px; height: 12px; line-height: 12px; margin: 0; } #zakkuri2p { font-size: 14px; margin-left: 10px; }  ざっくり言うと  富澤たけしと伊達みきおによるお笑いコンビ。好きな芸人ランキング1位。M-1グランプリ2007、キングオブコント2010での2冠王者。元々トリオだったことはあまり知られていない。   サンドウィッチマン（さんどうぃっちまん・Sandwich Man1）、富澤たけしと伊達みきおによるお笑いコンビ。
- https://www.youtube.com/watch?v=Ym5k2elTT78[return]   </description>
+      <guid>http://localhost/cerebro/docs/post/%E9%81%8B%E5%91%BD%E3%81%AE%E4%BA%BA/</guid>
+      <description>.zakkuri2 { position: relative; margin: 1em 0 2em; padding: 26px 0 0 0; display: flex; align-items: center; } .zakkuri2s { text-align: center; border-radius: 50px; padding: 5px 20px; font-size: 12px; color: white; background: #e84118; cursor: default; min-width: 80px; height: 12px; line-height: 12px; margin: 0; } #zakkuri2p { font-size: 14px; margin-left: 10px; }  ざっくり言うと...  スピッツの17thシングル。バスの揺れ方で人生の意味は分かるのか？ 。   運命の人(うんめいのひと)、スピッツ通算17枚目であるシングルのタイトル、およびリード曲。1997年11月27日発売。
+歌詞  作詞・作曲：草野マサムネ 歌：草野マサムネ   バスの揺れ方で人生の意味が 解かった日曜日
+でもさ 君は運命の人だから 強く手を握るよ</description>
+    </item>
+    
+    <item>
+      <title>風と桶に関する幾つかの考察</title>
+      <link>http://localhost/cerebro/docs/post/%E9%A2%A8%E3%81%A8%E6%A1%B6%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E5%B9%BE%E3%81%A4%E3%81%8B%E3%81%AE%E8%80%83%E5%AF%9F/</link>
+      <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/cerebro/docs/post/%E9%A2%A8%E3%81%A8%E6%A1%B6%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E5%B9%BE%E3%81%A4%E3%81%8B%E3%81%AE%E8%80%83%E5%AF%9F/</guid>
+      <description>.zakkuri2 { position: relative; margin: 1em 0 2em; padding: 26px 0 0 0; display: flex; align-items: center; } .zakkuri2s { text-align: center; border-radius: 50px; padding: 5px 20px; font-size: 12px; color: white; background: #e84118; cursor: default; min-width: 80px; height: 12px; line-height: 12px; margin: 0; } #zakkuri2p { font-size: 14px; margin-left: 10px; }  ざっくり言うと...  ラーメンズというお笑いコンビが自身の第15回公演『ALICE』にて披露したコント。オッケッヤッガモウカルッ！！！ 。   風と桶に関する幾つかの考察（かぜとおけにかんするいくつかのこうさつ）、ラーメンズ第15回公演『ALICE』にて披露されたコント、およびそのタイトル。ベースとなっているのは「風が吹けば桶屋が儲かる」ということわざ。ラーメンズにしては珍しいオムニバスコントである。</description>
+    </item>
+    
+    <item>
+      <title>Android</title>
+      <link>http://localhost/cerebro/docs/post/android/</link>
+      <pubDate>Sun, 07 Apr 2019 16:51:43 +0000</pubDate>
+      
+      <guid>http://localhost/cerebro/docs/post/android/</guid>
+      <description>.zakkuri2 { position: relative; margin: 1em 0 2em; padding: 26px 0 0 0; display: flex; align-items: center; } .zakkuri2s { text-align: center; border-radius: 50px; padding: 5px 20px; font-size: 12px; color: white; background: #e84118; cursor: default; min-width: 80px; height: 12px; line-height: 12px; margin: 0; } #zakkuri2p { font-size: 14px; margin-left: 10px; }  ざっくり言うと...  Googleが開発しているオペレーティングシステム。各メーカーによってその中身は別物 。   Android（あんどろいど・アンドロイド）、Googleが開発・提供しているオペレーティング・システム。主にスマートフォンや組み込みデバイスに用いられる。</description>
+    </item>
+    
+    <item>
+      <title>clipbook</title>
+      <link>http://localhost/cerebro/docs/post/clipbook/</link>
+      <pubDate>Sun, 07 Apr 2019 16:44:30 +0000</pubDate>
+      
+      <guid>http://localhost/cerebro/docs/post/clipbook/</guid>
+      <description>.zakkuri2 { position: relative; margin: 1em 0 2em; padding: 26px 0 0 0; display: flex; align-items: center; } .zakkuri2s { text-align: center; border-radius: 50px; padding: 5px 20px; font-size: 12px; color: white; background: #e84118; cursor: default; min-width: 80px; height: 12px; line-height: 12px; margin: 0; } #zakkuri2p { font-size: 14px; margin-left: 10px; }  ざっくり言うと...  fILOFAX（ファイロファックス）が販売しているシステム手帳。一応これでもシステム手帳。リングが30mmと大きく、カバーにリングを巻き付けたデザインが特徴。   clipbook（くりっぷぶっく・クリップブック）、fILOFAX（ファイロファックス）によって設計・発売されているシステム手帳およびノートブック。</description>
+    </item>
+    
+    <item>
+      <title>Go言語</title>
+      <link>http://localhost/cerebro/docs/post/go%E8%A8%80%E8%AA%9E/</link>
+      <pubDate>Sun, 07 Apr 2019 16:39:22 +0000</pubDate>
+      
+      <guid>http://localhost/cerebro/docs/post/go%E8%A8%80%E8%AA%9E/</guid>
+      <description>.zakkuri2 { position: relative; margin: 1em 0 2em; padding: 26px 0 0 0; display: flex; align-items: center; } .zakkuri2s { text-align: center; border-radius: 50px; padding: 5px 20px; font-size: 12px; color: white; background: #e84118; cursor: default; min-width: 80px; height: 12px; line-height: 12px; margin: 0; } #zakkuri2p { font-size: 14px; margin-left: 10px; }  ざっくり言うと...  Googleにより設計されたプログラミング言語。Hugoでしか使われている所を見たことがない。主にWeb関係で用いられることが多い(?) 。   Go言語（ごーげんご・Go・Golang）、GoogleのRobert Griesemer、ロブ・パイク、ケン・トンプソンらによって設計されたプログラミング言語。ツール群は全てオープンソース・ライセンスフリー。</description>
     </item>
     
     <item>
       <title>Hugo</title>
-      <link>https://cerebro532.netlify.com/post/hugo/</link>
+      <link>http://localhost/cerebro/docs/post/hugo/</link>
       <pubDate>Sun, 07 Apr 2019 15:38:17 +0000</pubDate>
       
-      <guid>https://cerebro532.netlify.com/post/hugo/</guid>
-      <description>.zakkuri2 { position: relative; margin: 1em 0 2em; padding: 26px 0 0 0; display: flex; align-items: center; } .zakkuri2s { text-align: center; border-radius: 50px; padding: 5px 20px; font-size: 12px; color: white; background: #e84118; cursor: default; min-width: 80px; height: 12px; line-height: 12px; margin: 0; } #zakkuri2p { font-size: 14px; margin-left: 10px; }  ざっくり言うと  静的サイトジェネレーター（SSG）。高速なビルドと拡張性が特徴。このサイトの源。   Hugo(ひゅーご・HUGO)、Go言語で開発された静的サイトジェネレーター。</description>
+      <guid>http://localhost/cerebro/docs/post/hugo/</guid>
+      <description>.zakkuri2 { position: relative; margin: 1em 0 2em; padding: 26px 0 0 0; display: flex; align-items: center; } .zakkuri2s { text-align: center; border-radius: 50px; padding: 5px 20px; font-size: 12px; color: white; background: #e84118; cursor: default; min-width: 80px; height: 12px; line-height: 12px; margin: 0; } #zakkuri2p { font-size: 14px; margin-left: 10px; }  ざっくり言うと...  静的サイトジェネレーター（SSG）。高速なビルドと拡張性が特徴。このサイトの源。   Hugo(ひゅーご・HUGO)、Go言語で開発された静的サイトジェネレーター。</description>
     </item>
     
     <item>
       <title>Oasis</title>
-      <link>https://cerebro532.netlify.com/post/oasis/</link>
+      <link>http://localhost/cerebro/docs/post/oasis/</link>
       <pubDate>Sun, 07 Apr 2019 09:01:00 +0000</pubDate>
       
-      <guid>https://cerebro532.netlify.com/post/oasis/</guid>
-      <description>  .zakkuri2 { position: relative; margin: 1em 0 2em; padding: 26px 0 0 0; display: flex; align-items: center; } .zakkuri2s { text-align: center; border-radius: 50px; padding: 5px 20px; font-size: 12px; color: white; background: #e84118; cursor: default; min-width: 80px; height: 12px; line-height: 12px; margin: 0; } #zakkuri2p { font-size: 14px; margin-left: 10px; }  ざっくり言うと  イギリスのロックバンド。兄弟仲が悪いことで有名。現在は解散しそれぞれで活動。   Oasis（オアシス・オエィシス1）、リアム・ギャラガー、ノエル・ギャラガー、ゲム・アーチャー、アンディ・ベル、クリス・シャーロックによる、イギリスのロックバンド。1991年結成、2009年解散。
+      <guid>http://localhost/cerebro/docs/post/oasis/</guid>
+      <description>  .zakkuri2 { position: relative; margin: 1em 0 2em; padding: 26px 0 0 0; display: flex; align-items: center; } .zakkuri2s { text-align: center; border-radius: 50px; padding: 5px 20px; font-size: 12px; color: white; background: #e84118; cursor: default; min-width: 80px; height: 12px; line-height: 12px; margin: 0; } #zakkuri2p { font-size: 14px; margin-left: 10px; }  ざっくり言うと...  イギリスのロックバンド。兄弟仲が悪いことで有名。現在は解散しそれぞれで活動。   Oasis（オアシス・オエィシス1）、リアム・ギャラガー、ノエル・ギャラガー、ゲム・アーチャー、アンディ・ベル、クリス・シャーロックによる、イギリスのロックバンド。1991年結成、2009年解散。
 ザ・ビートルズやフー・ファイターズと並んでイギリスの3大ロックバンドとされている。
- イギリス英語（British）での発音。すなわち正式な発音となる。[return]   </description>
+ イギリス英語（British）での発音。すなわち正式な発音となる。 [return]   </description>
     </item>
     
     <item>
       <title>アップルオートネットワーク株式会社</title>
-      <link>https://cerebro532.netlify.com/post/%E3%82%A2%E3%83%83%E3%83%97%E3%83%AB%E3%82%AA%E3%83%BC%E3%83%88%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE/</link>
+      <link>http://localhost/cerebro/docs/post/%E3%82%A2%E3%83%83%E3%83%97%E3%83%AB%E3%82%AA%E3%83%BC%E3%83%88%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE/</link>
       <pubDate>Sun, 07 Apr 2019 15:25:44 +0900</pubDate>
       
-      <guid>https://cerebro532.netlify.com/post/%E3%82%A2%E3%83%83%E3%83%97%E3%83%AB%E3%82%AA%E3%83%BC%E3%83%88%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE/</guid>
-      <description>  .zakkuri2 { position: relative; margin: 1em 0 2em; padding: 26px 0 0 0; display: flex; align-items: center; } .zakkuri2s { text-align: center; border-radius: 50px; padding: 5px 20px; font-size: 12px; color: white; background: #e84118; cursor: default; min-width: 80px; height: 12px; line-height: 12px; margin: 0; } #zakkuri2p { font-size: 14px; margin-left: 10px; }  ざっくり言うと  。   </description>
+      <guid>http://localhost/cerebro/docs/post/%E3%82%A2%E3%83%83%E3%83%97%E3%83%AB%E3%82%AA%E3%83%BC%E3%83%88%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE/</guid>
+      <description>  .zakkuri2 { position: relative; margin: 1em 0 2em; padding: 26px 0 0 0; display: flex; align-items: center; } .zakkuri2s { text-align: center; border-radius: 50px; padding: 5px 20px; font-size: 12px; color: white; background: #e84118; cursor: default; min-width: 80px; height: 12px; line-height: 12px; margin: 0; } #zakkuri2p { font-size: 14px; margin-left: 10px; }  ざっくり言うと...  。   </description>
     </item>
     
     <item>
       <title>林檎</title>
-      <link>https://cerebro532.netlify.com/post/%E6%9E%97%E6%AA%8E/</link>
+      <link>http://localhost/cerebro/docs/post/%E6%9E%97%E6%AA%8E/</link>
       <pubDate>Sun, 07 Apr 2019 15:25:29 +0900</pubDate>
       
-      <guid>https://cerebro532.netlify.com/post/%E6%9E%97%E6%AA%8E/</guid>
-      <description>.zakkuri2 { position: relative; margin: 1em 0 2em; padding: 26px 0 0 0; display: flex; align-items: center; } .zakkuri2s { text-align: center; border-radius: 50px; padding: 5px 20px; font-size: 12px; color: white; background: #e84118; cursor: default; min-width: 80px; height: 12px; line-height: 12px; margin: 0; } #zakkuri2p { font-size: 14px; margin-left: 10px; }  ざっくり言うと  赤い果実。例のアレ。   林檎（りんご・リンゴ）、バラ科リンゴ属の落葉高木樹。またはその果実。</description>
+      <guid>http://localhost/cerebro/docs/post/%E6%9E%97%E6%AA%8E/</guid>
+      <description>.zakkuri2 { position: relative; margin: 1em 0 2em; padding: 26px 0 0 0; display: flex; align-items: center; } .zakkuri2s { text-align: center; border-radius: 50px; padding: 5px 20px; font-size: 12px; color: white; background: #e84118; cursor: default; min-width: 80px; height: 12px; line-height: 12px; margin: 0; } #zakkuri2p { font-size: 14px; margin-left: 10px; }  ざっくり言うと...  赤い果実。例のアレ。   林檎（りんご・リンゴ）、バラ科リンゴ属の落葉高木樹。またはその果実。</description>
     </item>
     
     <item>
       <title>Apple.Inc</title>
-      <link>https://cerebro532.netlify.com/post/apple-inc/</link>
+      <link>http://localhost/cerebro/docs/post/apple-inc/</link>
       <pubDate>Sun, 07 Apr 2019 06:24:22 +0000</pubDate>
       
-      <guid>https://cerebro532.netlify.com/post/apple-inc/</guid>
-      <description>.zakkuri2 { position: relative; margin: 1em 0 2em; padding: 26px 0 0 0; display: flex; align-items: center; } .zakkuri2s { text-align: center; border-radius: 50px; padding: 5px 20px; font-size: 12px; color: white; background: #e84118; cursor: default; min-width: 80px; height: 12px; line-height: 12px; margin: 0; } #zakkuri2p { font-size: 14px; margin-left: 10px; }  ざっくり言うと  アメリカ合衆国カリフォルニア州に本社を置くIT企業。iPhoneやiPad、Macなどが有名。   Apple.Inc（あっぷる・アップル・Apple）、アメリカ合衆国カリフォルニア州に本社を置く、インターネット関連製品・デジタル家庭電化製品および同製品に関連するソフトウェア製品を開発・販売する多国籍企業。 2007年1月9日に、アップルコンピュータ (Apple Computer, Inc.) から改称。</description>
+      <guid>http://localhost/cerebro/docs/post/apple-inc/</guid>
+      <description>.zakkuri2 { position: relative; margin: 1em 0 2em; padding: 26px 0 0 0; display: flex; align-items: center; } .zakkuri2s { text-align: center; border-radius: 50px; padding: 5px 20px; font-size: 12px; color: white; background: #e84118; cursor: default; min-width: 80px; height: 12px; line-height: 12px; margin: 0; } #zakkuri2p { font-size: 14px; margin-left: 10px; }  ざっくり言うと...  アメリカ合衆国カリフォルニア州に本社を置くIT企業。iPhoneやiPad、Macなどが有名。   Apple.Inc（あっぷる・アップル・Apple）、アメリカ合衆国カリフォルニア州に本社を置く、インターネット関連製品・デジタル家庭電化製品および同製品に関連するソフトウェア製品を開発・販売する多国籍企業。 2007年1月9日に、アップルコンピュータ (Apple Computer, Inc.) から改称。</description>
     </item>
     
     <item>
       <title>アップル</title>
-      <link>https://cerebro532.netlify.com/post/%E3%82%A2%E3%83%83%E3%83%97%E3%83%AB/</link>
+      <link>http://localhost/cerebro/docs/post/%E3%82%A2%E3%83%83%E3%83%97%E3%83%AB/</link>
       <pubDate>Sun, 07 Apr 2019 15:16:59 +0900</pubDate>
       
-      <guid>https://cerebro532.netlify.com/post/%E3%82%A2%E3%83%83%E3%83%97%E3%83%AB/</guid>
+      <guid>http://localhost/cerebro/docs/post/%E3%82%A2%E3%83%83%E3%83%97%E3%83%AB/</guid>
       <description> この項目には複数の定義があります。  Apple.Inc - アメリカカリフォルニア州に本社を置くIT企業。
  林檎 - 赤い果実。例のアレ。
  アップルオートネットワーク株式会社 - 「アップルに来てください」でお馴染みの車の買取・査定を事業とする日本の株式会社。
@@ -82,84 +119,75 @@
     
     <item>
       <title>マイクロソフト</title>
-      <link>https://cerebro532.netlify.com/post/%E3%83%9E%E3%82%A4%E3%82%AF%E3%83%AD%E3%82%BD%E3%83%95%E3%83%88/</link>
+      <link>http://localhost/cerebro/docs/post/%E3%83%9E%E3%82%A4%E3%82%AF%E3%83%AD%E3%82%BD%E3%83%95%E3%83%88/</link>
       <pubDate>Sun, 07 Apr 2019 15:14:45 +0900</pubDate>
       
-      <guid>https://cerebro532.netlify.com/post/%E3%83%9E%E3%82%A4%E3%82%AF%E3%83%AD%E3%82%BD%E3%83%95%E3%83%88/</guid>
-      <description>.zakkuri2 { position: relative; margin: 1em 0 2em; padding: 26px 0 0 0; display: flex; align-items: center; } .zakkuri2s { text-align: center; border-radius: 50px; padding: 5px 20px; font-size: 12px; color: white; background: #e84118; cursor: default; min-width: 80px; height: 12px; line-height: 12px; margin: 0; } #zakkuri2p { font-size: 14px; margin-left: 10px; }  ざっくり言うと  アメリカに本社を置くIT企業。Windowsが有名。   マイクロソフト（まいくろそふと・Microsoft・Microsoft Corporation）、アメリカ合衆国ワシントン州に本社を置く、ソフトウェアを開発・販売する会社。1975年にビル・ゲイツとポール・アレンによって創業。</description>
+      <guid>http://localhost/cerebro/docs/post/%E3%83%9E%E3%82%A4%E3%82%AF%E3%83%AD%E3%82%BD%E3%83%95%E3%83%88/</guid>
+      <description>.zakkuri2 { position: relative; margin: 1em 0 2em; padding: 26px 0 0 0; display: flex; align-items: center; } .zakkuri2s { text-align: center; border-radius: 50px; padding: 5px 20px; font-size: 12px; color: white; background: #e84118; cursor: default; min-width: 80px; height: 12px; line-height: 12px; margin: 0; } #zakkuri2p { font-size: 14px; margin-left: 10px; }  ざっくり言うと...  アメリカに本社を置くIT企業。Windowsが有名。   マイクロソフト（まいくろそふと・Microsoft・Microsoft Corporation）、アメリカ合衆国ワシントン州に本社を置く、ソフトウェアを開発・販売する会社。1975年にビル・ゲイツとポール・アレンによって創業。</description>
     </item>
     
     <item>
       <title>スピッツ（バンド）</title>
-      <link>https://cerebro532.netlify.com/post/%E3%82%B9%E3%83%94%E3%83%83%E3%83%84/</link>
+      <link>http://localhost/cerebro/docs/post/%E3%82%B9%E3%83%94%E3%83%83%E3%83%84/</link>
       <pubDate>Sun, 07 Apr 2019 13:13:52 +0900</pubDate>
       
-      <guid>https://cerebro532.netlify.com/post/%E3%82%B9%E3%83%94%E3%83%83%E3%83%84/</guid>
+      <guid>http://localhost/cerebro/docs/post/%E3%82%B9%E3%83%94%E3%83%83%E3%83%84/</guid>
       <description>.info2 { position: relative; margin: 10px 0; display: flex; align-items: center; } .info2s { text-align: center; border-radius: 50px; padding: 5px 20px; font-size: 12px; color: white; background: #353b48; cursor: default; height: 12px; min-width: 40px; line-height: 12px; margin: 0; } #info2p { font-size: 14px; margin-left: 10px; }  要出典  この記事は出典が一つもなく、全盛期のニコニコ大百科の様なものになっています。出典を追加してください。   .long2 { position: relative; margin: 10px 0; padding: 26px 0 0 0; display: flex; align-items: center; } .</description>
     </item>
     
     <item>
       <title>ジャルジャル</title>
-      <link>https://cerebro532.netlify.com/post/%E3%82%B8%E3%83%A3%E3%83%AB%E3%82%B8%E3%83%A3%E3%83%AB/</link>
+      <link>http://localhost/cerebro/docs/post/%E3%82%B8%E3%83%A3%E3%83%AB%E3%82%B8%E3%83%A3%E3%83%AB/</link>
       <pubDate>Sun, 07 Apr 2019 00:09:27 +0900</pubDate>
       
-      <guid>https://cerebro532.netlify.com/post/%E3%82%B8%E3%83%A3%E3%83%AB%E3%82%B8%E3%83%A3%E3%83%AB/</guid>
-      <description>.zakkuri2 { position: relative; margin: 1em 0 2em; padding: 26px 0 0 0; display: flex; align-items: center; } .zakkuri2s { text-align: center; border-radius: 50px; padding: 5px 20px; font-size: 12px; color: white; background: #e84118; cursor: default; min-width: 80px; height: 12px; line-height: 12px; margin: 0; } #zakkuri2p { font-size: 14px; margin-left: 10px; }  ざっくり言うと  吉本興業所属のコンビ芸人。独特な着眼点とワードセンスが魅力。   ジャルジャル（じゃるじゃる・JARU JARU）、後藤純平と福徳秀介によるお笑いコンビ。2003年4月結成。</description>
+      <guid>http://localhost/cerebro/docs/post/%E3%82%B8%E3%83%A3%E3%83%AB%E3%82%B8%E3%83%A3%E3%83%AB/</guid>
+      <description>.zakkuri2 { position: relative; margin: 1em 0 2em; padding: 26px 0 0 0; display: flex; align-items: center; } .zakkuri2s { text-align: center; border-radius: 50px; padding: 5px 20px; font-size: 12px; color: white; background: #e84118; cursor: default; min-width: 80px; height: 12px; line-height: 12px; margin: 0; } #zakkuri2p { font-size: 14px; margin-left: 10px; }  ざっくり言うと...  吉本興業所属のコンビ芸人。独特な着眼点とワードセンスが魅力。   ジャルジャル（じゃるじゃる・JARU JARU）、後藤純平と福徳秀介によるお笑いコンビ。2003年4月結成。</description>
     </item>
     
     <item>
       <title>Fortnite</title>
-      <link>https://cerebro532.netlify.com/post/fortnite/</link>
+      <link>http://localhost/cerebro/docs/post/fortnite/</link>
       <pubDate>Sat, 06 Apr 2019 14:24:17 +0000</pubDate>
       
-      <guid>https://cerebro532.netlify.com/post/fortnite/</guid>
-      <description>この記事は転送しますフォートナイトへ2秒後に転送します… </description>
+      <guid>http://localhost/cerebro/docs/post/fortnite/</guid>
+      <description>この記事は転送します フォートナイトへ2秒後に転送します… </description>
     </item>
     
     <item>
       <title>フォートナイト</title>
-      <link>https://cerebro532.netlify.com/post/%E3%83%95%E3%82%A9%E3%83%BC%E3%83%88%E3%83%8A%E3%82%A4%E3%83%88/</link>
+      <link>http://localhost/cerebro/docs/post/%E3%83%95%E3%82%A9%E3%83%BC%E3%83%88%E3%83%8A%E3%82%A4%E3%83%88/</link>
       <pubDate>Sat, 06 Apr 2019 22:58:06 +0900</pubDate>
       
-      <guid>https://cerebro532.netlify.com/post/%E3%83%95%E3%82%A9%E3%83%BC%E3%83%88%E3%83%8A%E3%82%A4%E3%83%88/</guid>
-      <description>.zakkuri2 { position: relative; margin: 1em 0 2em; padding: 26px 0 0 0; display: flex; align-items: center; } .zakkuri2s { text-align: center; border-radius: 50px; padding: 5px 20px; font-size: 12px; color: white; background: #e84118; cursor: default; min-width: 80px; height: 12px; line-height: 12px; margin: 0; } #zakkuri2p { font-size: 14px; margin-left: 10px; }  ざっくり言うと  Epic Gamesが運営しているオンラインゲーム。バトルロイヤルが人気で、従来のものに建築要素などが追加されている。   フォートナイト（ふぉーとないと・Fortnite）、Epic Gamesが開発・提供している基本無料のアクションビルディングゲーム。
+      <guid>http://localhost/cerebro/docs/post/%E3%83%95%E3%82%A9%E3%83%BC%E3%83%88%E3%83%8A%E3%82%A4%E3%83%88/</guid>
+      <description>.zakkuri2 { position: relative; margin: 1em 0 2em; padding: 26px 0 0 0; display: flex; align-items: center; } .zakkuri2s { text-align: center; border-radius: 50px; padding: 5px 20px; font-size: 12px; color: white; background: #e84118; cursor: default; min-width: 80px; height: 12px; line-height: 12px; margin: 0; } #zakkuri2p { font-size: 14px; margin-left: 10px; }  ざっくり言うと...  Epic Gamesが運営しているオンラインゲーム。バトルロイヤルが人気で、従来のものに建築要素などが追加されている。   フォートナイト（ふぉーとないと・Fortnite）、Epic Gamesが開発・提供している基本無料のアクションビルディングゲーム。
   $(function(){ var countId = 1 $(&#34;.entry-content h1,.</description>
     </item>
     
     <item>
-      <title>¿Qué es せれぶろ?</title>
-      <link>https://cerebro532.netlify.com/info/</link>
-      <pubDate>Sat, 06 Apr 2019 22:12:15 +0900</pubDate>
-      
-      <guid>https://cerebro532.netlify.com/info/</guid>
-      <description>せれぶろとは 　項目数は多いけど一つ一つは大雑把、みたいな百科事典サイトにしていく予定です。Loghateよりも百科事典に注力してるのでHugoのテーマもそれっぽいやつになりました。満足満足。まぁいつもどおり続くかどうかは神のみぞ知るので、そこんとこよろしくおねがいします。あー、宿題やらんと。</description>
-    </item>
-    
-    <item>
       <title>ラーメンズ</title>
-      <link>https://cerebro532.netlify.com/post/%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%E3%82%BA/</link>
+      <link>http://localhost/cerebro/docs/post/%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%E3%82%BA/</link>
       <pubDate>Sat, 06 Apr 2019 22:12:15 +0900</pubDate>
       
-      <guid>https://cerebro532.netlify.com/post/%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%E3%82%BA/</guid>
-      <description>  .zakkuri2 { position: relative; margin: 1em 0 2em; padding: 26px 0 0 0; display: flex; align-items: center; } .zakkuri2s { text-align: center; border-radius: 50px; padding: 5px 20px; font-size: 12px; color: white; background: #e84118; cursor: default; min-width: 80px; height: 12px; line-height: 12px; margin: 0; } #zakkuri2p { font-size: 14px; margin-left: 10px; }  ざっくり言うと  小林賢太郎と片桐仁によるコンビ芸人。主に舞台で活動し、現在はそれぞれでソロ活動中。   ラーメンズ（らーめんず・RAHMENS1）、小林賢太郎と片桐仁によるコンビ芸人。1996年結成。
+      <guid>http://localhost/cerebro/docs/post/%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%E3%82%BA/</guid>
+      <description>  .zakkuri2 { position: relative; margin: 1em 0 2em; padding: 26px 0 0 0; display: flex; align-items: center; } .zakkuri2s { text-align: center; border-radius: 50px; padding: 5px 20px; font-size: 12px; color: white; background: #e84118; cursor: default; min-width: 80px; height: 12px; line-height: 12px; margin: 0; } #zakkuri2p { font-size: 14px; margin-left: 10px; }  ざっくり言うと...  小林賢太郎と片桐仁によるコンビ芸人。主に舞台で活動し、現在はそれぞれでソロ活動中。   ラーメンズ（らーめんず・RAHMENS1）、小林賢太郎と片桐仁によるコンビ芸人。1996年結成。
  Wikipediaでは『RAMENS』だが、公式サイト表記。 [return]   </description>
     </item>
     
     <item>
       <title>あ</title>
-      <link>https://cerebro532.netlify.com/post/%E3%81%82/</link>
+      <link>http://localhost/cerebro/docs/post/%E3%81%82/</link>
       <pubDate>Sat, 06 Apr 2019 17:12:08 +0900</pubDate>
       
-      <guid>https://cerebro532.netlify.com/post/%E3%81%82/</guid>
-      <description>.zakkuri2 { position: relative; margin: 1em 0 2em; padding: 26px 0 0 0; display: flex; align-items: center; } .zakkuri2s { text-align: center; border-radius: 50px; padding: 5px 20px; font-size: 12px; color: white; background: #e84118; cursor: default; min-width: 80px; height: 12px; line-height: 12px; margin: 0; } #zakkuri2p { font-size: 14px; margin-left: 10px; }  ざっくり言うと  ひらがな文字の一つ。50音順で一番最初。   あ(あ)、日本語のひらがな50文字の一つ。母音。</description>
+      <guid>http://localhost/cerebro/docs/post/%E3%81%82/</guid>
+      <description>.zakkuri2 { position: relative; margin: 1em 0 2em; padding: 26px 0 0 0; display: flex; align-items: center; } .zakkuri2s { text-align: center; border-radius: 50px; padding: 5px 20px; font-size: 12px; color: white; background: #e84118; cursor: default; min-width: 80px; height: 12px; line-height: 12px; margin: 0; } #zakkuri2p { font-size: 14px; margin-left: 10px; }  ざっくり言うと...  ひらがな文字の一つ。50音順で一番最初。   あ(あ)、日本語のひらがな50文字の一つ。母音。</description>
     </item>
     
     <item>
       <title>Search</title>
-      <link>https://cerebro532.netlify.com/search/index.json</link>
+      <link>http://localhost/cerebro/docs/search/index.json</link>
       <pubDate>Tue, 04 Sep 2018 15:32:54 +0200</pubDate>
       
-      <guid>https://cerebro532.netlify.com/search/index.json</guid>
+      <guid>http://localhost/cerebro/docs/search/index.json</guid>
       <description></description>
     </item>
     
