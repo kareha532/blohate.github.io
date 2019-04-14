@@ -6,10 +6,19 @@
     <description>Recent content on せれぶろ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Apr 2019 15:34:36 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 14 Apr 2019 04:00:06 +0000</lastBuildDate>
     
 	<atom:link href="http://localhost/cerebro/docs/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ThomasOS</title>
+      <link>http://localhost/cerebro/docs/post/thomasos/</link>
+      <pubDate>Sun, 14 Apr 2019 04:00:06 +0000</pubDate>
+      
+      <guid>http://localhost/cerebro/docs/post/thomasos/</guid>
+      <description>.long2 { position: relative; margin: 10px 0; padding: 26px 0 0 0; display: flex; align-items: center; } .long2s { text-align: center; border-radius: 50px; padding: 5px 20px; font-size: 12px; color: white; background: #fbc531; cursor: default; height: 12px; min-width: 40px; line-height: 12px; margin: 0; } #long2p { font-size: 14px; margin-left: 10px; }  注意  この記事は訳あって未完成（書きかけ）。目次をご利用ください。   ThomasOS（とーますおーえす・TheKindOS・TOS）、TOSが開発・公開しているフリーのオペレーティングシステム。iDowsやEicと並んで有名なOSであり、歴史も長い。19.32</description>
+    </item>
     
     <item>
       <title>TOS</title>

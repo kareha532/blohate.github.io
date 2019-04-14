@@ -1,5 +1,9 @@
 var sitePageList = [
   {
+    "title": "ThomasOS",
+    "url": "http://localhost/cerebro/docs/post/thomasos/"
+  }, 
+  {
     "title": "TOS",
     "url": "http://localhost/cerebro/docs/post/tos/"
   }, 
