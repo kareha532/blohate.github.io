@@ -1,0 +1,13 @@
+baseURL = "http://example.org/"
+languageCode = "ja"
+title = "ブロ果て"
+theme = "hugo-xmin"
+
+[author]
+    # If you want to display author information set these
+    # This is Optional values
+    name = "枯れ果て(kare532)"
+
+    # Please set account ids
+    # This is Optional values
+    twitter  = "INDEX_pixelart"

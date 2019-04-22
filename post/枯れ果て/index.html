@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" href="http://localhost/cerebro/docs/images/favicon.png">
+    <link rel="stylesheet" href="http://localhost/cerebro/docs/css/style.css">
+    <link rel="stylesheet" href="http://localhost/cerebro/docs/css/icofont/icofont.min.css">
+    <script src="http://localhost/cerebro/docs/js/jquery-3.3.1.min.js"></script>
+
+    <script>
+        $(function () {
+            $("#clicksearch").click(function () {
+                $("#searchform").toggle();
+            });
+        });
+
+    </script>
+    <script>
+        $(function () {
+            $("#submit").click(function () {
+                $("#result").toggle();
+            });
+        });    
+    </script>
+    <title>せれぶろ / 枯れ果て</title>
+    <div class="header">
+        <a id="logoa" href="http://localhost/cerebro/docs/"><img id="logo" src="http://localhost/cerebro/docs/images/logo.png" alt="Cerebro" srcset=""></a>
+        <span class="a">ひとりでつくる百科事典 Since 2019</span>
+        <span class="icon">
+            <button id="clicksearch"><i class="icofont-search-1"></i></button>
+        </span>
+        <span class="icon">
+            <a href="http://localhost/cerebro/docs/post"><button><i class="icofont-list"></i></button></a>
+        </span>
+        <span class="icon">
+            <a href="http://localhost/cerebro/docs/info"><button><i class="icofont-info"></i></button></a>
+        </span>
+    </div>
+
+    <div id="searchform">
+        <div id="searchbox">
+            <p id="boxtxt">何をお探しですか？</p>
+        </div>
+        <div class="search" id="search">
+            <input id="searchbox" type="text" placeholder="検索" v-model="txt" @keyup="search()" @blur="close()"
+                maxlength="50">
+            <div class="search-results" :style="{'display': showresult?'inline-block':'none'}">
+                <a v-for="item in result" :href="item.url">{{ item.title }}</a>
+            </div>
+            
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.min.js"
+                integrity="sha256-FtWfRI+thWlNz2sB3SJbwKx5PgMyKIVgwHCTwa3biXc=" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"
+                integrity="sha256-mpnrJ5DpEZZkwkE1ZgkEQQJW/46CSEh/STrZKOB/qoM=" crossorigin="anonymous"></script>
+
+            <script>
+                let vuesearch = new Vue({
+                    el: '#search', 
+                    data: {
+                        txt: '', 
+                        timeoutID: 0, 
+                        showresult: false, 
+                        result: {}, 
+                        bdd: [] 
+                    },
+                    mounted: function () {
+                        
+                        axios.get('http:\/\/localhost\/cerebro\/docs\/search\/index.json')
+                            .then(function (response) {
+                                vuesearch.bdd = response.data.results;
+                            })
+                            .catch(function (error) {
+                                console.log(error);
+                            });
+                    },
+                    methods: {
+                        close: function () {
+                            
+                            
+                            setTimeout(function () {
+                                vuesearch.showresult = false;
+                                vuesearch.txt = '';
+                            }, 300);
+                        },
+                        search: function () {
+                            
+                            clearTimeout(this.timeoutID);
+                            this.timeoutID = setTimeout(this.dosearch, 500);
+                        },
+                        dosearch: function () {
+                            
+                            this.result = []; 
+                            let words = this.txt.split(' '); 
+                            let words2 = []; 
+                            words.forEach(function (element) { 
+                                if (element) { words2.push(element); }
+                            });
+                            let r;
+                            let resultmp;
+                            words2.forEach(function (e) { 
+                                r = vuesearch.bdd.filter(p => p.content.indexOf(e.toLowerCase()) !== -1);
+                                if (vuesearch.result.length === 0) { vuesearch.result = r.slice(); return; }
+                                resultmp = [];
+                                vuesearch.result.forEach(function (all1) {
+                                    r.forEach(function (all2) { 
+                                        if (all1.url === all2.url) { resultmp.push(all1); }
+                                    });
+                                });
+                                vuesearch.result = resultmp.slice();
+                            });
+                            this.result = this.result.slice(0, 10); 
+                            this.showresult = (this.result.length > 0); 
+                        } 
+                    } 
+                }); 
+            </script>
+        </div>
+        <button href="#" class="rmd" onclick="random_jump();">Explore!</button>
+    </div>
+</head>
+<script src="http://localhost/cerebro/docs/pagelist.05a19c19ffa7fcb13b4cae317b6b44e8fb8a98440b9a98bd357f4d39384f5286.json" async></script>
+<script src="http://localhost/cerebro/docs/js/hugo-random.0f55d91267fd3e9c790f5ae8e706899bc45e69d8c42588ee8f22e691634f2086.js" async></script>
+
+
+<body>
+  <main class="main" role="main">
+    <article>
+      <header class="entry-header">
+        <h1 class="main">枯れ果て</h1>
+        <div id="right"><a href="https://cerebro532.netlify.com/admin/#/collections/post/entries/%e6%9e%af%e3%82%8c%e6%9e%9c%e3%81%a6/" id="editto">[編集]</a></div>
+      </header>
+      <div class="entry-content">
+        <p>
+
+
+
+<style>
+  .zakkuri2 {
+    position: relative;
+    margin: 1em 0 2em;
+    padding: 26px 0 0 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .zakkuri2s {
+    text-align: center;
+    border-radius: 50px;
+    padding: 5px 20px;
+    font-size: 12px;
+    color: white;
+    background: #e84118;
+    cursor: default;
+    min-width: 80px;
+    height: 12px;
+    line-height: 12px;
+    margin: 0;
+  }
+
+  #zakkuri2p {
+    font-size: 14px;
+    margin-left: 10px;
+  }
+</style>
+
+<div class="zakkuri2">
+  <span onselectstart="return false;" class="zakkuri2s">
+    ざっくり言うと...
+  </span>
+  <span id="zakkuri2p">
+    このサイトの運営者。最近は活動控えめ。
+  </span>
+</div>
+
+<p><strong>枯れ果て</strong>（かれはて・karehate・kare532men・kareha532・genten532・karehated・Mix404<sup class="footnote-ref" id="fnref:1"><a href="#fn:1">1</a></sup>、1982年2月20日 - ）、<a href="http://localhost/cerebro/docs/post/MyTube">MyTube</a>や<a href="http://localhost/cerebro/docs/post/SMiLE">SMiLE</a>などにおいて活動しているクリエイター、また<a href="http://localhost/cerebro/docs/post/Asty">Asty</a>に所属し楽曲制作などを自身で手がけている音楽家。また、<a href="http://localhost/cerebro/docs/post/藝劇">藝劇</a>などの劇場においてお笑いコントライブを不定期に開催している<sup class="footnote-ref" id="fnref:2"><a href="#fn:2">2</a></sup>。MyTubeやSMiLEなどにおいて飛躍的な知名度があり、しばしばラトランダのインターネット文化を作り上げたパイオニアと称される。</p>
+
+<p>音楽事務所は前述の通り<a href="http://localhost/cerebro/docs/post/Asty">Asty</a>に加え、2019年初頭には新たに<a href="http://localhost/cerebro/docs/post/未来機械">未来機械</a>にも所属している。また同事務所の子会社兼レーベルである<a href="http://localhost/cerebro/docs/post/Asty JAM">Asty JAM</a>において代表取締役をつとめている。また2017年11月までクリエイタープロダクションである<a href="http://localhost/cerebro/docs/post/0M3GA">0M3GA</a>に所属し代表取締役を務めていた<sup class="footnote-ref" id="fnref:3"><a href="#fn:3">3</a></sup>。</p>
+
+<p>2019年4月現在、MyTubeにおいて総登録ユーザーの約6割を占める157億2759万人の登録者を持ち、これは歴代においても最も登録者の多いユーザーチャンネルとなっている。</p>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script>
+$(function(){
+  var countId = 1
+  $(".entry-content h1,.entry-content h2,.entry-content h3,.entry-content h4,.entry-content h5,.entry-content h6").each(function(){
+    var ttl = $(this).text();
+    var lv = this.nodeName.toLowerCase();
+    this.id = 'ttl-' + countId;
+    countId ++;
+    $("#index").append('<dd class="lv_'+lv+' tocli"><a href="#'+this.id+'">'+ttl+'</a></dd>');
+  });
+});
+</script>
+
+<ul id="index">
+  <p>目次</p>
+</ul>
+<br><br>
+<style>
+  #index {
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    border: solid 1px #ccc;
+  }
+
+  #index p {
+    font-weight: bold;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding-bottom: 5px;
+    border-bottom: solid 2px #34ace0;    
+  }
+
+  .tocli {
+    font-size: 18px;
+    margin-left: 15px;
+  }
+
+  .tocli a {
+    color: black;
+    text-decoration: none;
+  }
+
+  dd {
+  margin: 0 10px;
+  padding: 10px;
+}
+dd:not(:last-child) {
+  border-bottom: 1px dotted #aaa;
+  margin-left: 0px;
+  margin-right: 40px;
+}
+dd.lv_h2 {
+  padding-left: 15px;
+}
+dd.lv_h3 {
+  padding-left: 20px;
+}
+dd.lv_h4 {
+  padding-left: 30px;
+}
+dd.lv_h5 {
+  padding-left: 35px;
+}
+dd.lv_h6 {
+  padding-left: 40px;
+}
+dd a {
+  color: #333;
+  text-decoration: none;
+}
+dd a::before {
+  content: "-";
+  margin-right: 5px;
+}
+</style>
+
+<h2 id="公演">公演</h2>
+
+<h3 id="単独コントライブ">単独コントライブ</h3>
+
+<p>主に年1回のペースで開催されている。第2回からタイトルに「<strong>karehate live</strong>」が付け加えられ、音楽活動においてのライブと区別している。主に1公演で5、6つのコントを披露しており、毎回屈伸されたものになっている。セットは最小限のもので、四角形の箱を椅子や机などに見立てて演じている。このあたりは、<a href="http://localhost/cerebro/docs/post/バナナマン">バナナマン</a>や<a href="http://localhost/cerebro/docs/post/ラーメンズ">ラーメンズ</a>などのスタイルと似ている。また、第3回以降ではライブのタイトルがすべてアルファベットとなっており、これについてはバナナマンの影響を受けた<sup class="footnote-ref" id="fnref:4"><a href="#fn:4">4</a></sup>と述べている。その他にも一部コントのタイトルが英語であったり、ライブの幕間映像などの随所に同コンビに似た演出が見られる。</p>
+
+<table>
+<thead>
+<tr>
+<th width=100>ジャケット</th>
+<th></th>
+<th>備考</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class=noborder><img src="http://localhost/cerebro/docs/images/karehate/明日の明日はその明日.jpg" width="75"></td>
+<td style="text-align:left;">第1回<b>　『明日の明日はその明日』</b>（2009/06/15）</td>
+<td>
+    <ul style="text-align:left;">
+        <li>オープニング</li>
+        <li>夢と幻</li>
+        <li>at 駅前</li>
+        <li>隕石の降る日</li>
+        <li>Tomorrow Memory</li>
+        <li>雨上がりにて</li>
+        <li>エンディング</li>
+    </ul>
+</td>
+</tr>
+<tr>
+<td><img src="http://localhost/cerebro/docs/images/karehate/karehate live それが日常への逆襲だとしても.jpg" width="75"></td>
+<td style="text-align:left;">第2回<b>　『karehate live それが日常への逆襲だとしても』</b>（2011/07/21）</td>
+<td>
+    <ul style="text-align:left;">
+        <li>オープニング</li>
+        <li>夜飯戦争</li>
+        <li>最後の一滴</li>
+        <li>リピートマン</li>
+        <li>ときめきのアメリカ</li>
+        <li>うしろ</li>
+        <li>エンディング</li>
+    </ul>
+</td>
+</tr>
+<tr>
+<td><img src="http://localhost/cerebro/docs/images/karehate/karehate live good and ugly.jpg" width="75"></td>
+<td style="text-align:left;">第3回<b>　『karehate live good and ugly』</b>（2012/06/25,26,27,28）</td>
+<td>
+    <ul style="text-align:left;">
+        <li>オープニング</li>
+        <li>on the street</li>
+        <li>choose</li>
+        <li>とある強盗</li>
+        <li>mount on rail</li>
+        <li>both points</li>
+        <li>エンディング</li>
+    </ul>
+</td>
+</tr>
+<tr>
+<td><img src="http://localhost/cerebro/docs/images/karehate/karehate live SARABA!
+.jpg" width="75"></td>
+<td style="text-align:left;">第4回<b>　『karehate live SARABA!
+』</b>（2013/07/24,25,26）</td>
+<td>
+    <ul style="text-align:left;">
+        <li>オープニング</li>
+        <li>なぬっ!?</li>
+        <li>承り屋承る</li>
+        <li>weird scene</li>
+        <li>ダイナミック加藤</li>
+        <li>分裂した攻防戦</li>
+        <li>エンディング</li>
+    </ul>
+</td>
+</tr>
+<tr>
+<td><img src="http://localhost/cerebro/docs/images/karehate/karehate live NULL.jpg" width="75"></td>
+<td style="text-align:left;">第5回<b>　『karehate live NULL』</b>（2014/07/24 - 27）</td>
+<td>
+    <ul style="text-align:left;">
+        <li>オープニング</li>
+        <li>青そうな赤</li>
+        <li>竹と菌における破滅的な勢力争い</li>
+        <li>スミッコ</li>
+        <li>プロレイパー</li>
+        <li>過ぎてく波</li>
+        <li>エンディング</li>
+    </ul>
+</td>
+</tr>
+<tr>
+<td><img src="http://localhost/cerebro/docs/images/karehate/karehate live themselves.jpg" width="75"></td>
+<td style="text-align:left;">第6回<b>　『karehate live THEMSELVES』</b>（2015/05/17,19）</td>
+<td>
+    <ul style="text-align:left;">
+        <li>オープニング</li>
+        <li>呼ばれてない</li>
+        <li>静寂の辛辣さ</li>
+        <li>マタタメ</li>
+        <li>すれ違いの応答</li>
+        <li>カウントダウン</li>
+        <li>エンディング</li>
+    </ul>
+</td>
+</tr>
+<tr>
+<td><img src="http://localhost/cerebro/docs/images/karehate/karehate live NATURE.jpg" width="75"></td>
+<td style="text-align:left;">第7回<b>　『karehate live NATURE』</b>（2017/09/23 - 26）</td>
+<td>
+    <ul style="text-align:left;">
+        <li>オープニング</li>
+        <li>新任初日</li>
+        <li>キビ助隊長</li>
+        <li>しましまの馬</li>
+        <li>電波連鎖</li>
+        <li>ドラマチックな妄想</li>
+        <li>エンディング</li>
+    </ul>
+</td>
+</tr>
+<tr>
+<td><img src="http://localhost/cerebro/docs/images/karehate/karehatelive retro has no time.jpg" width="75"></td>
+<td style="text-align:left;">第8回<b>　『karehatelive retro has no time』</b>（2018/09/23 - 26）</td>
+<td>
+    <ul style="text-align:left;">
+        <li>オープニング</li>
+        <li>思い出の歯車</li>
+        <li>丸まった尖り</li>
+        <li>ちょっと昔ばなし</li>
+        <li>in 駅</li>
+        <li>決定打</li>
+        <li>エンディング</li>
+    </ul>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:1"><a href="http://localhost/cerebro/docs/post/MixForYours">MixForYours</a>チャンネルでの名義。
+ <a class="footnote-return" href="#fnref:1"><sup>[return]</sup></a></li>
+<li id="fn:2">事務所には所属していないため芸人ではない。
+ <a class="footnote-return" href="#fnref:2"><sup>[return]</sup></a></li>
+<li id="fn:3">『事務所を辞めました I Quit OM3GA』（2017年11月投稿）より。
+ <a class="footnote-return" href="#fnref:3"><sup>[return]</sup></a></li>
+<li id="fn:4">「ライブタイトルとかはバナナマンとかの影響受けてますね、確か」 ― 『枯れ果てのCrazy Streamer』2018年3月2日放送分にて
+ <a class="footnote-return" href="#fnref:4"><sup>[return]</sup></a></li>
+</ol>
+</div>
+</p>
+      </div>
+      <div class="line"></div>
+      <div class="entry-date">記事作成日: 2019/04/21 16:23　最終更新日: 2019/04/22 01:01</div>
+    </article>
+  </main>
+</body>

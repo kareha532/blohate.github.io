@@ -359,10 +359,6 @@ h3 {
     border-bottom: 1px solid #dcdde1;
 }
 
-p {
-    line-height: 5vh;
-}
-
 table th {
     /*thに対して*/
     padding: 10px 0;
@@ -382,7 +378,7 @@ table td {
 }
 
 table {
-    line-height: 5vh;
+    /* line-height: 5vh; */
     margin: 0px;
     padding: 0px;
     width: 100%;
@@ -533,4 +529,18 @@ hr {
 .entry-content i {
     background: linear-gradient(transparent 60%, #ffff66 60%);
     font-style: normal;
+}
+
+p {
+    margin: 30px 0;
+}
+
+.grid-container {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+
+.noborder {
+    border-right: none;
 }
